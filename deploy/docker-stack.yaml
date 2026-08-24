@@ -6,7 +6,7 @@ services:
     command: --max_allowed_packet=128M
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: l2jmobiushepilogue
+      MYSQL_DATABASE: l2jmobiusepilogue
       MYSQL_USER: l2j
       MYSQL_PASSWORD: l2jpassword
       TZ: Europe/Prague
