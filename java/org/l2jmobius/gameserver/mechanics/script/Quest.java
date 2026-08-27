@@ -4968,6 +4968,252 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 	}
 	
 	/**
+	 * Give the specified player a set amount of items if he is lucky enough. chance can be higher than 100% after rate multiplication<br>
+	 * Not recommended to use this for non-stacking items.
+	 * @param player the player to give the item(s) to
+	 * @param itemId the ID of the item to give
+	 * @param amountToGive the amount of items to give
+	 * @param limit the maximum amount of items the player can have. Won't give more if this limit is reached. 0 - no limit.
+	 * @param dropChance the drop chance as a decimal digit from 0 to 1
+	 * @param playSound if true, plays ItemSound.quest_itemget when items are given and ItemSound.quest_middle when the limit is reached
+	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
+	 */
+	public static boolean giveItemWithChance(Player player, int itemId, int amountToGive, int limit, double dropChance, boolean playSound)
+	{
+		return giveItemWithChance(player, null, itemId, amountToGive, amountToGive, limit, dropChance, playSound);
+	}
+	
+	/**
+	 * Give the specified player a set amount of items if he is lucky enough.<br>
+	 * Not recommended to use this for non-stacking items.
+	 * @param player the player to give the item(s) to
+	 * @param npc the NPC that "dropped" the item (can be null)
+	 * @param itemId the ID of the item to give
+	 * @param amountToGive the amount of items to give
+	 * @param limit the maximum amount of items the player can have. Won't give more if this limit is reached. 0 - no limit.
+	 * @param dropChance the drop chance as a decimal digit from 0 to 1
+	 * @param playSound if true, plays ItemSound.quest_itemget when items are given and ItemSound.quest_middle when the limit is reached
+	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
+	 */
+	
+	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, int amountToGive, int limit, double dropChance, boolean playSound)
+	{
+		return giveItemWithChance(player, npc, itemId, amountToGive, amountToGive, limit, dropChance, playSound);
+	}
+	
+	/**
+	 * Give the specified player a random amount of items if he is lucky enough.<br>
+	 * Not recommended to use this for non-stacking items.
+	 * @param player the player to give the item(s) to
+	 * @param npc the NPC that "dropped" the item (can be null)
+	 * @param itemId the ID of the item to give
+	 * @param minAmount the minimum amount of items to give
+	 * @param maxAmount the maximum amount of items to give (will give a random amount between min/maxAmount multiplied by quest rates)
+	 * @param limit the maximum amount of items the player can have. Won't give more if this limit is reached. 0 - no limit.
+	 * @param dropChance the drop chance as a decimal digit from 0 to 1
+	 * @param playSound if true, plays ItemSound.quest_itemget when items are given and ItemSound.quest_middle when the limit is reached
+	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
+	 */
+	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, int minAmount, int maxAmount, int limit, double dropChance, boolean playSound)
+	{
+		final int currentCount = (int) getQuestItemsCount(player, itemId);
+		if ((limit > 0) && (currentCount >= limit))
+		{
+			return true;
+		}
+		
+		int minAmountWithBonus = (int) (minAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
+		int maxAmountWithBonus = (int) (maxAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
+		
+		// Aplikace nového násobiče šance na quest itemy
+		double dropChanceWithBonus = dropChance * RatesConfig.QUEST_ITEM_DROP_CHANCE_MULTIPLIER;
+		
+		// Aplikace bonusů z Champion mobů
+		if ((npc != null) && ChampionMonstersConfig.CHAMPION_ENABLE && npc.isChampion())
+		{
+			if ((itemId == Inventory.ADENA_ID) || (itemId == Inventory.ANCIENT_ADENA_ID))
+			{
+				dropChanceWithBonus *= ChampionMonstersConfig.CHAMPION_ADENAS_REWARDS_CHANCE;
+				minAmountWithBonus *= ChampionMonstersConfig.CHAMPION_ADENAS_REWARDS_AMOUNT;
+				maxAmountWithBonus *= ChampionMonstersConfig.CHAMPION_ADENAS_REWARDS_AMOUNT;
+			}
+			else
+			{
+				dropChanceWithBonus *= ChampionMonstersConfig.CHAMPION_REWARDS_CHANCE;
+				minAmountWithBonus *= ChampionMonstersConfig.CHAMPION_REWARDS_AMOUNT;
+				maxAmountWithBonus *= ChampionMonstersConfig.CHAMPION_REWARDS_AMOUNT;
+			}
+		}
+		
+		// Výpočet garantovaných násobků z šance (např. při šanci 2.5 vyjde multiplier = 2)
+		int chanceMultiplier = (int) dropChanceWithBonus;
+		
+		// Procentuální dojezd na +1 násobek navíc (např. z 2.5 je zbytek 0.5 = 50% šance)
+		final double remainder = dropChanceWithBonus - chanceMultiplier;
+		if ((remainder > 0) && (Rnd.nextDouble() < remainder))
+		{
+			chanceMultiplier++;
+		}
+		
+		// Pokud šance nevyšla ani na 1 násobek, item nepadá
+		if (chanceMultiplier <= 0)
+		{
+			return false;
+		}
+		
+		// Určíme základní množství (min/max) a vynásobíme jej získaným násobkem šance
+		int baseAmount = (minAmountWithBonus == maxAmountWithBonus) ? minAmountWithBonus : Rnd.get(minAmountWithBonus, maxAmountWithBonus);
+		int amountToGive = baseAmount * chanceMultiplier;
+		
+		// Ochrana kapacity inventáře a úprava na limit
+		if ((amountToGive > 0) && player.getInventory().validateCapacityByItemId(itemId))
+		{
+			if ((limit > 0) && ((currentCount + amountToGive) > limit))
+			{
+				amountToGive = limit - currentCount;
+			}
+			
+			// Přidání předmětů hráči
+			if (player.addItem(ItemProcessType.QUEST, itemId, amountToGive, npc, true) != null)
+			{
+				// Pokud byl dosažen přesný limit
+				if ((limit > 0) && ((currentCount + amountToGive) == limit))
+				{
+					if (playSound)
+					{
+						playSound(player, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+					}
+					return true;
+				}
+				
+				if (playSound)
+				{
+					playSound(player, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+				}
+				
+				if (limit <= 0)
+				{
+					return true;
+				}
+			}
+		}
+		
+		return false;
+	}
+	
+	/**
+	 * Vyhodnotí dropy z předané mapy s pravděpodobnostmi. Provede násobné hody dle QUEST_ITEM_DROP_CHANCE_MULTIPLIER, nakumuluje předměty v paměti a předá je hráči s ohledem na jednotlivé limity.
+	 * @param player Hráč
+	 * @param npc Zabité NPC (pro champion bonusy)
+	 * @param dropList Seznam polí: int[]{itemId, chance (v % nebo z 1000000), amount, limit}
+	 * @param chanceBase Měřítko šance (např. 100 pro procenta, 1000000 pro miliontiny)
+	 * @param playSound Pokud true, přehraje zvuk zisku předmětu
+	 * @return true, pokud hráč dostal alespoň 1 předmět
+	 */
+	public static boolean giveItemsFromDropList(Player player, Npc npc, List<int[]> dropList, int chanceBase, boolean playSound)
+	{
+		if ((player == null) || (npc == null) || (dropList == null) || dropList.isEmpty())
+		{
+			return false;
+		}
+		
+		// 1. Spočítáme celkový počet hodů na základě konfigurace ratu
+		double totalChance = RatesConfig.QUEST_ITEM_DROP_CHANCE_MULTIPLIER;
+		double amountRate = RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER;
+		// Aplikace bonusu pro Champion moby (pokud je NPC přítomno)
+		if (ChampionMonstersConfig.CHAMPION_ENABLE && npc.isChampion())
+		{
+			totalChance *= ChampionMonstersConfig.CHAMPION_REWARDS_CHANCE;
+			amountRate *= ChampionMonstersConfig.CHAMPION_REWARDS_AMOUNT;
+		}
+		int rolls = (int) totalChance;
+		final double remainder = totalChance - rolls;
+		if ((remainder > 0) && (Rnd.nextDouble() < remainder))
+		{
+			rolls++;
+		}
+		
+		// 2. dočasná mapa pro kumulaci dropu
+		final Map<Integer, Integer> drop = new HashMap<>();
+		boolean limitReached = false;
+		
+		// 3. provedení spočítaného množství hodů
+		for (int i = 0; i < rolls; i++)
+		{
+			final int roll = Rnd.get(chanceBase);
+			
+			for (int[] entry : dropList)
+			{
+				final int itemId = entry[0];
+				final int chance = entry[1];
+				final int baseAmount = entry[2];
+				final int limit = entry[3];
+				
+				if (roll < chance)
+				{
+					// výpočet amount
+					int amount = (int) Math.round(amountRate * baseAmount);
+					if (amount <= 0)
+					{
+						amount = 1;
+					}
+					
+					// kontrola překročení limitu
+					final int currentAmount = (int) getQuestItemsCount(player, itemId) + drop.getOrDefault(itemId, 0);
+					if (limit > 0)
+					{
+						final int missingAmount = limit - currentAmount;
+						if (missingAmount > 0)
+						{
+							if (amount > missingAmount)
+							{
+								amount = missingAmount;
+							}
+							drop.put(itemId, drop.getOrDefault(itemId, 0) + amount);
+							// Kontrola, zda právě tímto přidáním hráč dosáhl limitu
+							if ((limit > 0) && ((currentAmount + amount) >= limit))
+							{
+								limitReached = true;
+							}
+						}
+					}
+					else
+					{
+						drop.put(itemId, drop.getOrDefault(itemId, 0) + amount);
+					}
+					break;
+				}
+			}
+		}
+		
+		// 4. předání dropu do inventáře
+		boolean itemsAdded = false;
+		if (!drop.isEmpty())
+		{
+			for (Map.Entry<Integer, Integer> entry : drop.entrySet())
+			{
+				if (player.addItem(ItemProcessType.QUEST, entry.getKey(), entry.getValue(), npc, true) != null)
+				{
+					itemsAdded = true;
+				}
+			}
+			if (playSound && itemsAdded)
+			{
+				if (limitReached)
+				{
+					playSound(player, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+				}
+				else
+				{
+					playSound(player, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+				}
+			}
+		}
+		
+		return itemsAdded;
+	}
+	
+	/**
 	 * Take an amount of a specified item from player's inventory.
 	 * @param player the player whose item to take
 	 * @param itemId the ID of the item to take

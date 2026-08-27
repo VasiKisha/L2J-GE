@@ -50,6 +50,7 @@ public class RatesConfig
 	public static float RATE_EXTRACTABLE;
 	public static int RATE_DROP_MANOR;
 	public static float QUEST_ITEM_DROP_AMOUNT_MULTIPLIER;
+	public static float QUEST_ITEM_DROP_CHANCE_MULTIPLIER;
 	public static float RATE_QUEST_REWARD;
 	public static float RATE_QUEST_REWARD_XP;
 	public static float RATE_QUEST_REWARD_SP;
@@ -120,6 +121,7 @@ public class RatesConfig
 		RATE_EXTRACTABLE = config.getFloat("RateExtractable", 1);
 		RATE_DROP_MANOR = config.getInt("RateDropManor", 1);
 		QUEST_ITEM_DROP_AMOUNT_MULTIPLIER = config.getFloat("QuestItemDropAmountMultiplier", 1);
+		QUEST_ITEM_DROP_CHANCE_MULTIPLIER = config.getFloat("QuestItemDrioChanceMultiplier", 1);
 		RATE_QUEST_REWARD = config.getFloat("RateQuestReward", 1);
 		RATE_QUEST_REWARD_XP = config.getFloat("RateQuestRewardXP", 1);
 		RATE_QUEST_REWARD_SP = config.getFloat("RateQuestRewardSP", 1);
