@@ -427,7 +427,7 @@ public class Q00417_PathOfTheScavenger extends Quest
 				case HUNTER_TARANTULA:
 				case PLUNDER_TARANTULA:
 				{
-					if (npc.isScriptValue(2) && firstAttacker && npc.asAttackable().isSpoiled() && hasQuestItems(killer, TARANTULA_PICTURE) && giveItemRandomly(killer, npc, BEAD, 1, 20, 1, true))
+					if (npc.isScriptValue(2) && firstAttacker && npc.asAttackable().isSpoiled() && hasQuestItems(killer, TARANTULA_PICTURE) && giveItemWithChance(killer, npc, BEAD, 1, 20, 1, true))
 					{
 						qs.setCond(8);
 					}
