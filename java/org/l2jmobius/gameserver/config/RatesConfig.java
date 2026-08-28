@@ -121,7 +121,7 @@ public class RatesConfig
 		RATE_EXTRACTABLE = config.getFloat("RateExtractable", 1);
 		RATE_DROP_MANOR = config.getInt("RateDropManor", 1);
 		QUEST_ITEM_DROP_AMOUNT_MULTIPLIER = config.getFloat("QuestItemDropAmountMultiplier", 1);
-		QUEST_ITEM_DROP_CHANCE_MULTIPLIER = config.getFloat("QuestItemDrioChanceMultiplier", 1);
+		QUEST_ITEM_DROP_CHANCE_MULTIPLIER = config.getFloat("QuestItemDropChanceMultiplier", 1);
 		RATE_QUEST_REWARD = config.getFloat("RateQuestReward", 1);
 		RATE_QUEST_REWARD_XP = config.getFloat("RateQuestRewardXP", 1);
 		RATE_QUEST_REWARD_SP = config.getFloat("RateQuestRewardSP", 1);
