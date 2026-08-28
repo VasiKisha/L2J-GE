@@ -19,14 +19,11 @@ package quests.Q00419_GetAPet;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.config.PlayerConfig;
 import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.entity.actor.enums.creature.Race;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
-import org.l2jmobius.gameserver.util.LocationUtil;
 
 /**
  * Get A Pet (419)
@@ -74,6 +71,28 @@ public class Q00419_GetAPet extends Quest
 	private static final int KASHA_BLADE_SPIDER = 20478;
 	private static final int PLUNDER_TARANTULA = 20508;
 	private static final int CRIMSON_SPIDER2 = 22244;
+	
+	// Droplist
+	private static final Map<Integer, int[]> DROPLIST = new HashMap<>();
+	static
+	{
+		// @formatter:off
+		DROPLIST.put(20103, new int[]{BLOODY_FANG, 600000});
+		DROPLIST.put(20106, new int[]{BLOODY_FANG, 750000});
+		DROPLIST.put(20108, new int[]{BLOODY_FANG, 1000000});
+		DROPLIST.put(20460, new int[]{BLOODY_CLAW, 600000});
+		DROPLIST.put(20308, new int[]{BLOODY_CLAW, 750000});
+		DROPLIST.put(20466, new int[]{BLOODY_CLAW, 1000000});
+		DROPLIST.put(20025, new int[]{BLOODY_NAIL, 600000});
+		DROPLIST.put(20105, new int[]{BLOODY_NAIL, 750000});
+		DROPLIST.put(20034, new int[]{BLOODY_NAIL, 1000000});
+		DROPLIST.put(20474, new int[]{BLOODY_KASHA_FANG, 600000});
+		DROPLIST.put(20476, new int[]{BLOODY_KASHA_FANG, 750000});
+		DROPLIST.put(20478, new int[]{BLOODY_KASHA_FANG, 1000000});
+		DROPLIST.put(20403, new int[]{BLOODY_TARANTULA_NAIL, 750000});
+		DROPLIST.put(20508, new int[]{BLOODY_TARANTULA_NAIL, 1000000});
+		// @formatter:on
+	}
 	
 	// Misc
 	private static final int MIN_LEVEL = 15;
@@ -375,254 +394,19 @@ public class Q00419_GetAPet extends Quest
 	}
 	
 	@Override
-	public void onKill(Npc npc, Player killer, boolean isSummon)
+	public void onKill(Npc npc, Player player, boolean isPet)
 	{
-		final QuestState qs = getQuestState(killer, false);
-		if ((qs != null) && qs.isStarted() && LocationUtil.checkIfInRange(PlayerConfig.ALT_PARTY_RANGE, npc, killer, true))
+		final QuestState st = getQuestState(player, false);
+		if ((st == null) || !st.isStarted())
 		{
-			switch (npc.getId())
-			{
-				case LESSER_DARK_HORROR:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_3RD_LIST) && (getQuestItemsCount(killer, BLOODY_NAIL) < 50) && (getRandom(100) < 60))
-					{
-						giveItems(killer, BLOODY_NAIL, 1);
-						if (getQuestItemsCount(killer, BLOODY_NAIL) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case PROWLER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_3RD_LIST) && (getQuestItemsCount(killer, BLOODY_NAIL) < 50) && (getRandom(100) < 100))
-					{
-						giveItems(killer, BLOODY_NAIL, 1);
-						if (getQuestItemsCount(killer, BLOODY_NAIL) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case GIANT_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_1ST_LIST) && (getQuestItemsCount(killer, BLOODY_FANG) < 50) && (getRandom(100) < 60))
-					{
-						giveItems(killer, BLOODY_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case DARK_HORROR:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_3RD_LIST) && (getQuestItemsCount(killer, BLOODY_NAIL) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_NAIL, 1);
-						if (getQuestItemsCount(killer, BLOODY_NAIL) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case TALON_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_1ST_LIST) && (getQuestItemsCount(killer, BLOODY_FANG) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case BLADE_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_1ST_LIST) && (getQuestItemsCount(killer, BLOODY_FANG) < 50) && (getRandom(100) < 100))
-					{
-						giveItems(killer, BLOODY_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case HOOK_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_2ND_LIST) && (getQuestItemsCount(killer, BLOODY_CLAW) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_CLAW, 1);
-						if (getQuestItemsCount(killer, BLOODY_CLAW) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case HUNTER_TARANTULA:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_5TH_LIST) && (getQuestItemsCount(killer, BLOODY_TARANTULA_NAIL) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_TARANTULA_NAIL, 1);
-						if (getQuestItemsCount(killer, BLOODY_TARANTULA_NAIL) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case CRIMSON_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_2ND_LIST) && (getQuestItemsCount(killer, BLOODY_CLAW) < 50) && (getRandom(100) < 60))
-					{
-						giveItems(killer, BLOODY_CLAW, 1);
-						if (getQuestItemsCount(killer, BLOODY_CLAW) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case PINCER_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_2ND_LIST) && (getQuestItemsCount(killer, BLOODY_CLAW) < 50) && (getRandom(100) < 100))
-					{
-						giveItems(killer, BLOODY_CLAW, 1);
-						if (getQuestItemsCount(killer, BLOODY_CLAW) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case KASHA_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_4TH_LIST) && (getQuestItemsCount(killer, BLOODY_KASHA_FANG) < 50) && (getRandom(100) < 60))
-					{
-						giveItems(killer, BLOODY_KASHA_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_KASHA_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case KASHA_FANG_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_4TH_LIST) && (getQuestItemsCount(killer, BLOODY_KASHA_FANG) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_KASHA_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_KASHA_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case KASHA_BLADE_SPIDER:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_4TH_LIST) && (getQuestItemsCount(killer, BLOODY_KASHA_FANG) < 50) && (getRandom(100) < 100))
-					{
-						giveItems(killer, BLOODY_KASHA_FANG, 1);
-						if (getQuestItemsCount(killer, BLOODY_KASHA_FANG) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case PLUNDER_TARANTULA:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_5TH_LIST) && (getQuestItemsCount(killer, BLOODY_TARANTULA_NAIL) < 50) && (getRandom(100) < 100))
-					{
-						giveItems(killer, BLOODY_TARANTULA_NAIL, 1);
-						if (getQuestItemsCount(killer, BLOODY_TARANTULA_NAIL) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case CRIMSON_SPIDER2:
-				{
-					if (hasQuestItems(killer, ANIMAL_SLAYERS_LIST) && (getQuestItemsCount(killer, BLOODY_RED_CLAW) < 50) && (getRandom(100) < 75))
-					{
-						giveItems(killer, BLOODY_RED_CLAW, 1);
-						if (getQuestItemsCount(killer, BLOODY_RED_CLAW) >= 50)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-			}
+			return;
+		}
+		
+		final int[] drop = DROPLIST.get(npc.getId());
+		if ((drop != null) && hasQuestItems(player, drop[0] - 5))
+		{
+			// giveItemWithChance(player, npc, itemId, amountToGive, limit, dropChance, playSound)
+			giveItemWithChance(player, npc, drop[0], 1, 50, drop[1] / 1000000d, true);
 		}
 	}
 	
