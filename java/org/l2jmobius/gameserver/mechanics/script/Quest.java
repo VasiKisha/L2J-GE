@@ -4978,7 +4978,7 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 	 * @param playSound if true, plays ItemSound.quest_itemget when items are given and ItemSound.quest_middle when the limit is reached
 	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
 	 */
-	public static boolean giveItemWithChance(Player player, int itemId, int amountToGive, int limit, double dropChance, boolean playSound)
+	public static boolean giveItemWithChance(Player player, int itemId, long amountToGive, long limit, double dropChance, boolean playSound)
 	{
 		return giveItemWithChance(player, null, itemId, amountToGive, amountToGive, limit, dropChance, playSound);
 	}
@@ -4996,7 +4996,7 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
 	 */
 	
-	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, int amountToGive, int limit, double dropChance, boolean playSound)
+	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, long amountToGive, long limit, double dropChance, boolean playSound)
 	{
 		return giveItemWithChance(player, npc, itemId, amountToGive, amountToGive, limit, dropChance, playSound);
 	}
@@ -5014,16 +5014,16 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 	 * @param playSound if true, plays ItemSound.quest_itemget when items are given and ItemSound.quest_middle when the limit is reached
 	 * @return {@code true} if limit > 0 and the limit was reached or if limit <= 0 and items were given; {@code false} in all other cases
 	 */
-	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, int minAmount, int maxAmount, int limit, double dropChance, boolean playSound)
+	public static boolean giveItemWithChance(Player player, Npc npc, int itemId, long minAmount, long maxAmount, long limit, double dropChance, boolean playSound)
 	{
-		final int currentCount = (int) getQuestItemsCount(player, itemId);
+		final long currentCount = (int) getQuestItemsCount(player, itemId);
 		if ((limit > 0) && (currentCount >= limit))
 		{
 			return true;
 		}
 		
-		int minAmountWithBonus = (int) (minAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
-		int maxAmountWithBonus = (int) (maxAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
+		long minAmountWithBonus = (long) (minAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
+		long maxAmountWithBonus = (long) (maxAmount * RatesConfig.QUEST_ITEM_DROP_AMOUNT_MULTIPLIER);
 		
 		// Aplikace nového násobiče šance na quest itemy
 		double dropChanceWithBonus = dropChance * RatesConfig.QUEST_ITEM_DROP_CHANCE_MULTIPLIER;
@@ -5062,8 +5062,8 @@ public class Quest implements IEventTimerEvent<String>, IEventTimerCancel<String
 		}
 		
 		// Určíme základní množství (min/max) a vynásobíme jej získaným násobkem šance
-		int baseAmount = (minAmountWithBonus == maxAmountWithBonus) ? minAmountWithBonus : Rnd.get(minAmountWithBonus, maxAmountWithBonus);
-		int amountToGive = baseAmount * chanceMultiplier;
+		long baseAmount = (minAmountWithBonus == maxAmountWithBonus) ? minAmountWithBonus : Rnd.get(minAmountWithBonus, maxAmountWithBonus);
+		long amountToGive = baseAmount * chanceMultiplier;
 		
 		// Ochrana kapacity inventáře a úprava na limit
 		if ((amountToGive > 0) && player.getInventory().validateCapacityByItemId(itemId))
