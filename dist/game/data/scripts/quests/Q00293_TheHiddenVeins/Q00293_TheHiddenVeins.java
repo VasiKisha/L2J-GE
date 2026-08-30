@@ -118,10 +118,7 @@ public class Q00293_TheHiddenVeins extends Quest
 		final QuestState qs = getQuestState(killer, false);
 		if (qs != null)
 		{
-			if (giveItemWithChance(killer, npc, CHRYSOLITE_ORE, 1, 0, 0.5, true))
-			{
-				return;
-			}
+			giveItemWithChance(killer, npc, CHRYSOLITE_ORE, 1, 0, 0.5, true);
 			giveItemWithChance(killer, npc, TORN_MAP_FRAGMENT, 1, 0, 0.05, true);
 		}
 	}
