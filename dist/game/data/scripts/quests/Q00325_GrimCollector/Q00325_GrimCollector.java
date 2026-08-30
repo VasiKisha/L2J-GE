@@ -71,6 +71,91 @@ public class Q00325_GrimCollector extends Quest
 		MONSTER_DROPS.put(20514, Arrays.asList(new ItemChanceHolder(SKULL, 6), new ItemChanceHolder(RIB_BONE, 21), new ItemChanceHolder(SPINE, 30), new ItemChanceHolder(ARM_BONE, 31), new ItemChanceHolder(THIGH_BONE, 64)));
 		MONSTER_DROPS.put(20515, Arrays.asList(new ItemChanceHolder(SKULL, 5), new ItemChanceHolder(RIB_BONE, 20), new ItemChanceHolder(SPINE, 31), new ItemChanceHolder(ARM_BONE, 33), new ItemChanceHolder(THIGH_BONE, 69)));
 	}
+	private static final Map<Integer, List<int[]>> DROPLIST = new HashMap<>();
+	// @formatter:off
+	static
+	{
+		// Formát pole v Seznamu: { ITEM_ID, CHANCE_THRESHOLD, AMOUNT, LIMIT }
+		
+		// MOB 20026
+		DROPLIST.put(20026, Arrays.asList(
+			new int[] {ZOMBIE_HEAD, 30, 1, 0},
+			new int[] {ZOMBIE_HEART, 50, 1, 0},
+			new int[] {ZOMBIE_LIVER, 75, 1, 0}
+		));
+		
+		// MOB 20029
+		DROPLIST.put(20029, Arrays.asList(
+			new int[] {ZOMBIE_HEAD, 30, 1, 0},
+			new int[] {ZOMBIE_HEART, 52, 1, 0},
+			new int[] {ZOMBIE_LIVER, 75, 1, 0}
+		));
+
+		// MOB 20035
+		DROPLIST.put(20035, Arrays.asList(
+			new int[] {SKULL, 5, 1, 0},
+			new int[] {RIB_BONE, 15, 1, 0},
+			new int[] {SPINE, 29, 1, 0},
+			new int[] {THIGH_BONE, 79, 1, 0}
+		));
+
+		// MOB 20042
+		DROPLIST.put(20042, Arrays.asList(
+			new int[] {SKULL, 6, 1, 0},
+			new int[] {RIB_BONE, 19, 1, 0},
+			new int[] {ARM_BONE, 69, 1, 0},
+			new int[] {THIGH_BONE, 86, 1, 0}
+		));
+		
+		// MOB 20045
+		DROPLIST.put(20045, Arrays.asList(
+			new int[] {SKULL, 9, 1, 0},
+			new int[] {SPINE, 59, 1, 0},
+			new int[] {ARM_BONE, 77, 1, 0},
+			new int[] {THIGH_BONE, 97, 1, 0}
+		));
+		
+		// MOB 20051
+		DROPLIST.put(20051, Arrays.asList(
+			new int[] {SKULL, 9, 1, 0},
+			new int[] {RIB_BONE, 59, 1, 0},
+			new int[] {SPINE, 79, 1, 0},
+			new int[] {ARM_BONE, 100, 1, 0}
+		));
+
+		// MOB 20457
+		DROPLIST.put(20457, Arrays.asList(
+			new int[] {ZOMBIE_HEAD, 40, 1, 0},
+			new int[] {ZOMBIE_HEART, 60, 1, 0},
+			new int[] {ZOMBIE_LIVER, 80, 1, 0}
+		));
+		
+		// MOB 20458
+		DROPLIST.put(20458, Arrays.asList(
+			new int[] {ZOMBIE_HEAD, 40, 1, 0},
+			new int[] {ZOMBIE_HEART, 70, 1, 0},
+			new int[] {ZOMBIE_LIVER, 100, 1, 0}
+		));		
+		
+		// MOB 20514
+		DROPLIST.put(20514, Arrays.asList(
+			new int[] {SKULL, 6, 1, 0},
+			new int[] {RIB_BONE, 21, 1, 0},
+			new int[] {SPINE, 30, 1, 0},
+			new int[] {ARM_BONE, 31, 1, 0},
+			new int[] {THIGH_BONE, 64, 1, 0}
+		));		
+
+		// MOB 20515
+		DROPLIST.put(20515, Arrays.asList(
+			new int[] {SKULL, 5, 1, 0},
+			new int[] {RIB_BONE, 20, 1, 0},
+			new int[] {SPINE, 31, 1, 0},
+			new int[] {ARM_BONE, 33, 1, 0},
+			new int[] {THIGH_BONE, 69, 1, 0}
+		));		
+	}
+	// @formatter:on
 	
 	public Q00325_GrimCollector()
 	{
@@ -202,14 +287,10 @@ public class Q00325_GrimCollector extends Quest
 			return;
 		}
 		
-		final int rnd = getRandom(100);
-		for (ItemChanceHolder drop : MONSTER_DROPS.get(npc.getId()))
+		final List<int[]> drops = DROPLIST.get(npc.getId());
+		if (drops != null)
 		{
-			if (rnd < drop.getChance())
-			{
-				giveItemRandomly(killer, npc, drop.getId(), 1, 0, 1, true);
-				break;
-			}
+			giveItemsFromDropList(killer, npc, drops, 100, true);
 		}
 	}
 	

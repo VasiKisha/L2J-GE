@@ -1,5 +1,6 @@
 List of modified quests:
 Affected by QI drop chance multiplier:
+Q00325_GrimCollector
 Q00385_YokeOfThePast
 Q00417_PathOfTheScavenger
 Q00419_GetAPet
