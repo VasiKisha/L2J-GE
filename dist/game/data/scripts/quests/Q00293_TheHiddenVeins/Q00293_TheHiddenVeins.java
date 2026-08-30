@@ -22,7 +22,6 @@ import org.l2jmobius.gameserver.entity.actor.enums.creature.Race;
 import org.l2jmobius.gameserver.entity.item.holders.ItemHolder;
 import org.l2jmobius.gameserver.managers.ScriptManager;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.mechanics.script.State;
 
@@ -119,17 +118,11 @@ public class Q00293_TheHiddenVeins extends Quest
 		final QuestState qs = getQuestState(killer, false);
 		if (qs != null)
 		{
-			final int chance = getRandom(100);
-			if (chance > 50)
+			if (giveItemWithChance(killer, npc, CHRYSOLITE_ORE, 1, 0, 0.5, true))
 			{
-				giveItems(killer, CHRYSOLITE_ORE, 1);
-				playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+				return;
 			}
-			else if (chance < 5)
-			{
-				giveItems(killer, TORN_MAP_FRAGMENT, 1);
-				playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-			}
+			giveItemWithChance(killer, npc, TORN_MAP_FRAGMENT, 1, 0, 0.05, true);
 		}
 	}
 	
