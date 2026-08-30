@@ -1,8 +1,14 @@
 List of modified quests:
-Affected by QI drop chance multiplier:
+Affected by QI drop chance multiplier (* no QI drops):
+Q00038_DragonFangs
+Q00039_RedEyeInvaders
 Q00325_GrimCollector
+Q00364_JovialAccordion*
+Q00378_GrandFeast*
 Q00385_YokeOfThePast
+Q00405_PathOfTheCleric*
 Q00417_PathOfTheScavenger
+Q00418_PathOfTheArtisan*
 Q00419_GetAPet
 Q00634_InSearchOfFragmentsOfDimension
 
