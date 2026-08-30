@@ -1,3 +1,11 @@
+List of modified quests:
+Affected by QI drop chance multiplier:
+Q00385_YokeOfThePast
+Q00417_PathOfTheScavenger
+Q00419_GetAPet
+Q00634_InSearchOfFragmentsOfDimension
+
+
 Lineage 2 The 2nd Throne - Gracia Epilogue
 https://sites.google.com/site/l2clientdev/opcode/patch-notes/gracia-epilogue
 

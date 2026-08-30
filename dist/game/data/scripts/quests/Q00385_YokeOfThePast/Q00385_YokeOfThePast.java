@@ -188,7 +188,7 @@ public class Q00385_YokeOfThePast extends Quest
 		final QuestState qs = getRandomPartyMemberState(killer, -1, 3, npc);
 		if (qs != null)
 		{
-			giveItemRandomly(qs.getPlayer(), npc, SCROLL_OF_ANCIENT_MAGIC, 1, 0, MONSTER_CHANCES.get(npc.getId()), true);
+			giveItemWithChance(qs.getPlayer(), npc, SCROLL_OF_ANCIENT_MAGIC, 1, 0, MONSTER_CHANCES.get(npc.getId()), true);
 		}
 	}
 }
