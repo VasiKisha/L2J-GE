@@ -10,6 +10,7 @@ TARGET_BRANCH="master" # volba větne pro testování
 DEPLOY_DIR="$BASE_DIR/L2J-GE"
 BUILD_ZIP="$BASE_DIR/build/L2J_Mobius_CT_2.4_Epilogue.zip"
 TMP_DIR="$BASE_DIR/build_tmp"
+GEODATA_BACKUP="$BASE_DIR/geodata_backup"
 JAVA_PATH="$BASE_DIR/jdk-25.0.4"
 GIT_REPO_URL="https://github.com/VasiKisha/L2J-GE.git"
 
@@ -56,6 +57,13 @@ unzip -q "$BUILD_ZIP" -d "$TMP_DIR"
 echo "[5/6] Overwriting production files with Git build..."
 mkdir -p "$DEPLOY_DIR"
 
+# Záloha geodat (pouze pokud složka v produkci reálně existuje)
+if [ -d "$DEPLOY_DIR/game/data/geodata" ]; then
+    echo "Backing up geodata..."
+    mkdir -p "$GEODATA_BACKUP"
+    rsync -av --delete "$DEPLOY_DIR/game/data/geodata/" "$GEODATA_BACKUP/"
+fi
+
 # Přepíše strukturu a smaže ze serveru soubory, které v novém buildu už nejsou
 rsync -av --checksum --delete "$TMP_DIR/" "$DEPLOY_DIR/"
 
@@ -65,6 +73,14 @@ chmod +x "$DEPLOY_DIR/game/"*.sh 2>/dev/null || true
 
 # Úklid dočasné složky
 rm -rf "$TMP_DIR"
+
+# Navrácení geodat (pokud byla dříve zálohována)
+if [ -d "$GEODATA_BACKUP" ]; then
+    echo "Restoring geodata..."
+    mkdir -p "$DEPLOY_DIR/game/data/geodata"
+    rsync -av "$GEODATA_BACKUP/" "$DEPLOY_DIR/game/data/geodata/"
+    rm -rf "$GEODATA_BACKUP"
+fi
 
 # 6. Restart Docker kontejnerů přes Portainer/Docker CLI
 echo "[6/6] Restarting Docker containers..."
