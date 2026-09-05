@@ -263,7 +263,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="32.3009">
@@ -732,7 +732,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="35.0254">
@@ -1019,7 +1019,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="44.2957">
@@ -1108,7 +1108,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="40.8411">
@@ -2594,7 +2594,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="45.5627">
@@ -2956,7 +2956,7 @@
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
 					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
-					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
+					<item id="7884" min="1" max="1" chance="0.12465" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
 				</group>
 				<group chance="3.2697">
@@ -8680,7 +8680,7 @@
 					<item id="57" min="4847" max="9892" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4728">
-					<item id="12227" min="1" max="1" chance="4.4751" /> <!-- Common Item - Sealed Dark Crystal Breastplate -->
+					<item id="5287" min="1" max="1" chance="0.223755" /> <!-- Common Item - Sealed Dark Crystal Breastplate -->
 					<item id="5520" min="1" max="1" chance="26.477" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
 					<item id="5293" min="1" max="1" chance="0.13778" /> <!-- Common Item - Sealed Tallum Plate Armor -->
 					<item id="5521" min="1" max="1" chance="18.6832" /> <!-- Sealed Tallum Plate Armor Pattern -->
