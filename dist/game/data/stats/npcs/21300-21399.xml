@@ -62,13 +62,13 @@
 					<item id="57" min="3663" max="7480" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5012">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="11.2878">
@@ -162,7 +162,7 @@
 					<item id="57" min="4396" max="8976" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6003">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="35.301">
@@ -259,9 +259,9 @@
 					<item id="57" min="3552" max="7232" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4888">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -350,13 +350,13 @@
 					<item id="57" min="3592" max="7313" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4907">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="36.9361">
@@ -450,13 +450,13 @@
 					<item id="57" min="5287" max="10776" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7228">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="29.5788">
@@ -545,13 +545,13 @@
 					<item id="57" min="3893" max="7935" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5322">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="36.3432">
@@ -639,7 +639,7 @@
 					<item id="57" min="7045" max="14360" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9613">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="46.6976">
@@ -728,9 +728,9 @@
 					<item id="57" min="4948" max="10097" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6817">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -820,13 +820,13 @@
 					<item id="57" min="6575" max="13415" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8992">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="49.718">
@@ -919,13 +919,13 @@
 					<item id="57" min="6853" max="13982" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9372">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="34.548">
@@ -1015,9 +1015,9 @@
 					<item id="57" min="5625" max="11517" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7769">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -1104,9 +1104,9 @@
 					<item id="57" min="5186" max="10619" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7163">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -1203,7 +1203,7 @@
 					<item id="57" min="5384" max="10974" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7427">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="34.9079">
@@ -1288,7 +1288,7 @@
 					<item id="57" min="5124" max="10462" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7073">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="43.8064">
@@ -1381,7 +1381,7 @@
 					<item id="57" min="2869" max="5842" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3913">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="8.7722">
@@ -1502,7 +1502,7 @@
 					<item id="57" min="2990" max="6088" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4122">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="41.2373">
@@ -1625,7 +1625,7 @@
 					<item id="57" min="3124" max="6369" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4299">
-					<item id="11951" min="1" max="1" chance="7.4858" /> <!-- Common Item - Bloody Orchid -->
+					<item id="235" min="1" max="1" chance="0.37429" /> <!-- Common Item - Bloody Orchid -->
 					<item id="5536" min="1" max="1" chance="92.5142" /> <!-- Bloody Orchid Head -->
 				</group>
 				<group chance="38.7983">
@@ -1749,7 +1749,7 @@
 					<item id="57" min="2953" max="6019" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.403">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="30.8764">
@@ -1871,13 +1871,13 @@
 					<item id="57" min="3087" max="6292" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.2108">
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
 				</group>
 				<group chance="42.6012">
@@ -2002,7 +2002,7 @@
 					<item id="57" min="3482" max="7105" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4805">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="30.8944">
@@ -2120,7 +2120,7 @@
 					<item id="57" min="3168" max="6465" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4361">
-					<item id="11951" min="1" max="1" chance="7.4858" /> <!-- Common Item - Bloody Orchid -->
+					<item id="235" min="1" max="1" chance="0.37429" /> <!-- Common Item - Bloody Orchid -->
 					<item id="5536" min="1" max="1" chance="92.5142" /> <!-- Bloody Orchid Head -->
 				</group>
 				<group chance="33.1413">
@@ -2237,7 +2237,7 @@
 					<item id="57" min="2752" max="5635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3767">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="43.909">
@@ -2353,7 +2353,7 @@
 					<item id="57" min="2752" max="5635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3808">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="48.9766">
@@ -2469,7 +2469,7 @@
 					<item id="57" min="2719" max="5567" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3752">
-					<item id="11951" min="1" max="1" chance="7.4858" /> <!-- Common Item - Bloody Orchid -->
+					<item id="235" min="1" max="1" chance="0.37429" /> <!-- Common Item - Bloody Orchid -->
 					<item id="5536" min="1" max="1" chance="92.5142" /> <!-- Bloody Orchid Head -->
 				</group>
 				<group chance="31.6532">
@@ -2590,9 +2590,9 @@
 					<item id="57" min="2610" max="5333" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3599">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -2708,13 +2708,13 @@
 					<item id="57" min="2524" max="5157" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3455">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="2.8721">
@@ -2825,7 +2825,7 @@
 					<item id="57" min="2524" max="5157" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3448">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="44.8394">
@@ -2952,9 +2952,9 @@
 					<item id="57" min="2875" max="5868" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3962">
-					<item id="11957" min="1" max="1" chance="2.493" /> <!-- Common Item - Tallum Blade -->
+					<item id="80" min="1" max="1" chance="0.12465" /> <!-- Common Item - Tallum Blade -->
 					<item id="5548" min="1" max="1" chance="30.8105" /> <!-- Tallum Blade Edge -->
-					<item id="11952" min="1" max="1" chance="2.493" /> <!-- Common Item - Elemental Sword -->
+					<item id="150" min="1" max="1" chance="0.12465" /> <!-- Common Item - Elemental Sword -->
 					<item id="5547" min="1" max="1" chance="30.8105" /> <!-- Elemental Sword Edge -->
 					<item id="11954" min="1" max="1" chance="2.493" /> <!-- Common Item - Inferno Master -->
 					<item id="8331" min="1" max="1" chance="30.9" /> <!-- Infernal Master Blade -->
@@ -3072,13 +3072,13 @@
 					<item id="57" min="2756" max="5626" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3771">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="45.7966">
@@ -3208,11 +3208,11 @@
 					<item id="57" min="2802" max="5719" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.316">
-					<item id="11968" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dragon Slayer -->
+					<item id="81" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dragon Slayer -->
 					<item id="5529" min="1" max="1" chance="30.3693" /> <!-- Dragon Slayer Edge -->
-					<item id="11971" min="1" max="1" chance="1.9679" /> <!-- Common Item - Sword of Miracles -->
+					<item id="151" min="1" max="1" chance="0.098395" /> <!-- Common Item - Sword of Miracles -->
 					<item id="5546" min="1" max="1" chance="33.3577" /> <!-- Sword of Miracles Edge -->
-					<item id="11964" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dark Legion -->
+					<item id="2500" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dark Legion -->
 					<item id="5545" min="1" max="1" chance="30.3693" /> <!-- Dark Legion's Edge Blade -->
 				</group>
 				<group chance="3.6182">
@@ -3319,13 +3319,13 @@
 					<item id="57" min="2671" max="5451" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.292">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="48.7032">
@@ -3447,11 +3447,11 @@
 					<item id="57" min="2624" max="5357" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2959">
-					<item id="11968" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dragon Slayer -->
+					<item id="81" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dragon Slayer -->
 					<item id="5529" min="1" max="1" chance="30.3693" /> <!-- Dragon Slayer Edge -->
-					<item id="11971" min="1" max="1" chance="1.9679" /> <!-- Common Item - Sword of Miracles -->
+					<item id="151" min="1" max="1" chance="0.098395" /> <!-- Common Item - Sword of Miracles -->
 					<item id="5546" min="1" max="1" chance="33.3577" /> <!-- Sword of Miracles Edge -->
-					<item id="11964" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dark Legion -->
+					<item id="2500" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dark Legion -->
 					<item id="5545" min="1" max="1" chance="30.3693" /> <!-- Dark Legion's Edge Blade -->
 				</group>
 				<group chance="45.7969">
@@ -3578,13 +3578,13 @@
 					<item id="57" min="2939" max="6000" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3214">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="3.3326">
@@ -3695,13 +3695,13 @@
 					<item id="57" min="2813" max="5760" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3082">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="38.4319">
@@ -3831,7 +3831,7 @@
 					<item id="57" min="3806" max="7794" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4171">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="37.5014">
@@ -3954,7 +3954,7 @@
 					<item id="57" min="2718" max="5566" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2978">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="36.5016">
@@ -4080,9 +4080,9 @@
 					<item id="57" min="3195" max="6545" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.605">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="44.4136">
@@ -4195,9 +4195,9 @@
 					<item id="57" min="2968" max="6057" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5623">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="44.667">
@@ -4325,11 +4325,11 @@
 					<item id="57" min="3905" max="7970" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.7941">
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="29.9476">
@@ -4456,7 +4456,7 @@
 					<item id="57" min="2975" max="6071" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3254">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="38.0623">
@@ -4583,11 +4583,11 @@
 					<item id="57" min="2975" max="6071" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6827">
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="37.7368">
@@ -4700,11 +4700,11 @@
 					<item id="57" min="3115" max="6359" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3512">
-					<item id="11968" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dragon Slayer -->
+					<item id="81" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dragon Slayer -->
 					<item id="5529" min="1" max="1" chance="30.3693" /> <!-- Dragon Slayer Edge -->
-					<item id="11971" min="1" max="1" chance="1.9679" /> <!-- Common Item - Sword of Miracles -->
+					<item id="151" min="1" max="1" chance="0.098395" /> <!-- Common Item - Sword of Miracles -->
 					<item id="5546" min="1" max="1" chance="33.3577" /> <!-- Sword of Miracles Edge -->
-					<item id="11964" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dark Legion -->
+					<item id="2500" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dark Legion -->
 					<item id="5545" min="1" max="1" chance="30.3693" /> <!-- Dark Legion's Edge Blade -->
 				</group>
 				<group chance="49.5875">
@@ -4834,13 +4834,13 @@
 					<item id="57" min="4098" max="8367" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4482">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="36.9813">
@@ -4967,7 +4967,7 @@
 					<item id="57" min="4624" max="9470" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5072">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="5.254">
@@ -5052,7 +5052,7 @@
 					<item id="57" min="3141" max="6413" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3436">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="40.1091">
@@ -5145,7 +5145,7 @@
 					<item id="57" min="3504" max="7154" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3833">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="40.7039">
@@ -5231,7 +5231,7 @@
 					<item id="57" min="3481" max="7103" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3806">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="48.2778">
@@ -5333,9 +5333,9 @@
 					<item id="57" min="5309" max="10884" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7625">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="39.6985">
@@ -5421,7 +5421,7 @@
 					<item id="57" min="3643" max="7457" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3992">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="48.9283">
@@ -5512,7 +5512,7 @@
 					<item id="57" min="3700" max="7573" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4054">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="41.0358">
@@ -5604,7 +5604,7 @@
 					<item id="57" min="2914" max="5954" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4024">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="42.792">
@@ -5723,7 +5723,7 @@
 					<item id="57" min="2549" max="5209" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3511">
-					<item id="11951" min="1" max="1" chance="7.4858" /> <!-- Common Item - Bloody Orchid -->
+					<item id="235" min="1" max="1" chance="0.37429" /> <!-- Common Item - Bloody Orchid -->
 					<item id="5536" min="1" max="1" chance="92.5142" /> <!-- Bloody Orchid Head -->
 				</group>
 				<group chance="46.4967">
@@ -5838,11 +5838,11 @@
 					<item id="57" min="1553" max="3172" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6241">
-					<item id="12222" min="1" max="1" chance="4.5113" /> <!-- Common Item - Sealed Dark Crystal Leather Armor -->
+					<item id="5297" min="1" max="1" chance="0.225565" /> <!-- Common Item - Sealed Dark Crystal Leather Armor -->
 					<item id="5478" min="1" max="1" chance="26.1184" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
-					<item id="12230" min="1" max="1" chance="2.7732" /> <!-- Common Item - Sealed Tallum Leather Armor -->
+					<item id="5301" min="1" max="1" chance="0.13866" /> <!-- Common Item - Sealed Tallum Leather Armor -->
 					<item id="5479" min="1" max="1" chance="18.3787" /> <!-- Sealed Tallum Leather Armor Pattern -->
-					<item id="12228" min="1" max="1" chance="7.2233" /> <!-- Common Item - Sealed Dark Crystal Leggings -->
+					<item id="5298" min="1" max="1" chance="0.361165" /> <!-- Common Item - Sealed Dark Crystal Leggings -->
 					<item id="5482" min="1" max="1" chance="40.9951" /> <!-- Sealed Dark Crystal Leggings Design -->
 				</group>
 				<group chance="40.8052">
@@ -5969,7 +5969,7 @@
 					<item id="57" min="3477" max="7097" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4747">
-					<item id="11950" min="1" max="1" chance="7.5474" /> <!-- Common Item - Blood Tornado -->
+					<item id="269" min="1" max="1" chance="0.37737" /> <!-- Common Item - Blood Tornado -->
 					<item id="5539" min="1" max="1" chance="92.4526" /> <!-- Blood Tornado Edge -->
 				</group>
 				<group chance="38.5094">
@@ -6088,7 +6088,7 @@
 					<item id="57" min="3446" max="7034" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4757">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="32.5758">
@@ -6218,7 +6218,7 @@
 					<item id="57" min="3502" max="7147" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.383">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="43.4403">
@@ -6333,7 +6333,7 @@
 					<item id="57" min="2254" max="4600" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2467">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="44.663">
@@ -6457,7 +6457,7 @@
 					<item id="57" min="3727" max="7609" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.408">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="34.0378">
@@ -6584,7 +6584,7 @@
 					<item id="57" min="3748" max="7652" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.41">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="49.634">
@@ -6699,7 +6699,7 @@
 					<item id="57" min="2396" max="4907" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2627">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="41.9016">
@@ -6830,7 +6830,7 @@
 					<item id="57" min="4974" max="10185" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5452">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="34.4418">
@@ -6953,9 +6953,9 @@
 					<item id="57" min="3592" max="7357" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5156">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="49.1122">
@@ -7083,9 +7083,9 @@
 					<item id="57" min="3942" max="8074" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7488">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="45.0827">
@@ -7201,13 +7201,13 @@
 					<item id="57" min="3795" max="7746" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.7861">
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
 				</group>
 				<group chance="44.0675">
@@ -7334,11 +7334,11 @@
 					<item id="57" min="2916" max="5951" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6489">
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="44.2637">
@@ -7466,9 +7466,9 @@
 					<item id="57" min="4071" max="8308" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7692">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="39.5315">
@@ -7595,9 +7595,9 @@
 					<item id="57" min="4396" max="8972" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6296">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="27.3074">
@@ -7711,7 +7711,7 @@
 					<item id="57" min="2653" max="5416" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2904">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="35.6978">
@@ -7841,7 +7841,7 @@
 					<item id="57" min="5359" max="10941" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5863">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="41.335">
@@ -7970,7 +7970,7 @@
 					<item id="57" min="4725" max="9675" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5177">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="45.3019">
@@ -8058,9 +8058,9 @@
 					<item id="57" min="3835" max="7830" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.727">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="47.5767">
@@ -8152,7 +8152,7 @@
 					<item id="57" min="4132" max="8436" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4521">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="47.1658">
@@ -8238,9 +8238,9 @@
 					<item id="57" min="2763" max="5640" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5238">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="43.9887">
@@ -8339,9 +8339,9 @@
 					<item id="57" min="5568" max="11414" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.0583">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="19.1505">
@@ -8426,7 +8426,7 @@
 					<item id="57" min="2916" max="5970" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3195">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="46.5207">
@@ -8514,9 +8514,9 @@
 					<item id="57" min="2811" max="5754" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5321">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="40.9154">
@@ -8598,7 +8598,7 @@
 					<item id="57" min="4952" max="10108" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6817">
-					<item id="11951" min="1" max="1" chance="7.4858" /> <!-- Common Item - Bloody Orchid -->
+					<item id="235" min="1" max="1" chance="0.37429" /> <!-- Common Item - Bloody Orchid -->
 					<item id="5536" min="1" max="1" chance="92.5142" /> <!-- Bloody Orchid Head -->
 				</group>
 				<group chance="34.2273">
@@ -8682,9 +8682,9 @@
 				<group chance="1.4728">
 					<item id="12227" min="1" max="1" chance="4.4751" /> <!-- Common Item - Sealed Dark Crystal Breastplate -->
 					<item id="5520" min="1" max="1" chance="26.477" /> <!-- Sealed Dark Crystal Breastplate Pattern -->
-					<item id="12233" min="1" max="1" chance="2.7556" /> <!-- Common Item - Sealed Tallum Plate Armor -->
+					<item id="5293" min="1" max="1" chance="0.13778" /> <!-- Common Item - Sealed Tallum Plate Armor -->
 					<item id="5521" min="1" max="1" chance="18.6832" /> <!-- Sealed Tallum Plate Armor Pattern -->
-					<item id="12220" min="1" max="1" chance="7.1407" /> <!-- Common Item - Sealed Dark Crystal Gaiters -->
+					<item id="5288" min="1" max="1" chance="0.357035" /> <!-- Common Item - Sealed Dark Crystal Gaiters -->
 					<item id="5524" min="1" max="1" chance="40.4684" /> <!-- Sealed Dark Crystal Gaiters Pattern -->
 				</group>
 				<group chance="45.2386">
@@ -8769,7 +8769,7 @@
 					<item id="57" min="5950" max="12144" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6509">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="46.7401">
@@ -8853,9 +8853,9 @@
 					<item id="57" min="4995" max="10193" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7153">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="47.4581">
@@ -8940,13 +8940,13 @@
 					<item id="57" min="5093" max="10393" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5568">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="49.4514">
@@ -9034,7 +9034,7 @@
 					<item id="57" min="5566" max="11364" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6087">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="48.9981">
@@ -9126,9 +9126,9 @@
 					<item id="57" min="5929" max="12104" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.1204">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="46.5783">
@@ -9216,9 +9216,9 @@
 					<item id="57" min="6337" max="12938" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9078">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="43.3465">
@@ -9304,9 +9304,9 @@
 					<item id="57" min="5890" max="12060" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.1151">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="40.7842">
@@ -9387,9 +9387,9 @@
 					<item id="57" min="5571" max="11407" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7995">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="38.1844">
@@ -9476,9 +9476,9 @@
 					<item id="57" min="5749" max="11773" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.092">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="38.4284">
@@ -9565,11 +9565,11 @@
 					<item id="57" min="5163" max="10575" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="5.0288">
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="40.746">
@@ -9654,13 +9654,13 @@
 					<item id="57" min="7810" max="15997" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="5.7473">
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
 				</group>
 				<group chance="43.3542">
@@ -9747,11 +9747,11 @@
 					<item id="57" min="7149" max="14591" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.8058">
-					<item id="11968" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dragon Slayer -->
+					<item id="81" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dragon Slayer -->
 					<item id="5529" min="1" max="1" chance="30.3693" /> <!-- Dragon Slayer Edge -->
-					<item id="11971" min="1" max="1" chance="1.9679" /> <!-- Common Item - Sword of Miracles -->
+					<item id="151" min="1" max="1" chance="0.098395" /> <!-- Common Item - Sword of Miracles -->
 					<item id="5546" min="1" max="1" chance="33.3577" /> <!-- Sword of Miracles Edge -->
-					<item id="11964" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dark Legion -->
+					<item id="2500" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dark Legion -->
 					<item id="5545" min="1" max="1" chance="30.3693" /> <!-- Dark Legion's Edge Blade -->
 				</group>
 				<group chance="42.639">
@@ -9837,11 +9837,11 @@
 					<item id="57" min="8333" max="17007" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="8.0991">
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="46.1583">
@@ -9924,13 +9924,13 @@
 					<item id="57" min="6703" max="13681" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7327">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="48.4662">
@@ -10109,7 +10109,7 @@
 					<item id="57" min="7443" max="15195" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.814">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="49.6536">
@@ -10189,7 +10189,7 @@
 					<item id="57" min="5623" max="11476" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.615">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="34.9266">
@@ -10360,13 +10360,13 @@
 					<item id="57" min="3069" max="6264" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4198">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="44.5841">
@@ -10446,13 +10446,13 @@
 					<item id="57" min="2992" max="6106" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4092">
-					<item id="11946" min="1" max="1" chance="1.8833" /> <!-- Common Item - Dasparion's Staff -->
+					<item id="212" min="1" max="1" chance="0.094165" /> <!-- Common Item - Dasparion's Staff -->
 					<item id="5543" min="1" max="1" chance="23.2872" /> <!-- Dasparion's Staff Edge -->
-					<item id="11949" min="1" max="1" chance="1.8833" /> <!-- Common Item - Meteor Shower -->
+					<item id="2504" min="1" max="1" chance="0.094165" /> <!-- Common Item - Meteor Shower -->
 					<item id="5532" min="1" max="1" chance="23.0697" /> <!-- Meteor Shower Head -->
-					<item id="11953" min="1" max="1" chance="1.8833" /> <!-- Common Item - Spiritual Eye -->
+					<item id="7894" min="1" max="1" chance="0.094165" /> <!-- Common Item - Spiritual Eye -->
 					<item id="8341" min="1" max="1" chance="23.0402" /> <!-- Spiritual Eye Piece -->
-					<item id="11958" min="1" max="1" chance="1.8833" /> <!-- Common Item - Destroyer Hammer -->
+					<item id="7899" min="1" max="1" chance="0.094165" /> <!-- Common Item - Destroyer Hammer -->
 					<item id="8346" min="1" max="1" chance="23.0697" /> <!-- Hammer Piece of Destroyer -->
 				</group>
 				<group chance="43.4622">
@@ -10531,7 +10531,7 @@
 					<item id="57" min="5681" max="11595" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7756">
-					<item id="11960" min="1" max="1" chance="7.5474" /> <!-- Common Item - Halberd -->
+					<item id="98" min="1" max="1" chance="0.37737" /> <!-- Common Item - Halberd -->
 					<item id="5542" min="1" max="1" chance="92.4526" /> <!-- Halberd Edge -->
 				</group>
 				<group chance="19.4988">
@@ -10612,7 +10612,7 @@
 					<item id="57" min="4986" max="10175" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.6807">
-					<item id="11960" min="1" max="1" chance="7.5474" /> <!-- Common Item - Halberd -->
+					<item id="98" min="1" max="1" chance="0.37737" /> <!-- Common Item - Halberd -->
 					<item id="5542" min="1" max="1" chance="92.4526" /> <!-- Halberd Edge -->
 				</group>
 				<group chance="17.1118">

@@ -5166,13 +5166,13 @@
 					<item id="57" min="1771" max="3615" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.8073">
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
 				</group>
 				<group chance="34.5059">
@@ -5289,11 +5289,11 @@
 					<item id="57" min="1821" max="3717" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2013">
-					<item id="11968" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dragon Slayer -->
+					<item id="81" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dragon Slayer -->
 					<item id="5529" min="1" max="1" chance="30.3693" /> <!-- Dragon Slayer Edge -->
-					<item id="11971" min="1" max="1" chance="1.9679" /> <!-- Common Item - Sword of Miracles -->
+					<item id="151" min="1" max="1" chance="0.098395" /> <!-- Common Item - Sword of Miracles -->
 					<item id="5546" min="1" max="1" chance="33.3577" /> <!-- Sword of Miracles Edge -->
-					<item id="11964" min="1" max="1" chance="1.9679" /> <!-- Common Item - Dark Legion -->
+					<item id="2500" min="1" max="1" chance="0.098395" /> <!-- Common Item - Dark Legion -->
 					<item id="5545" min="1" max="1" chance="30.3693" /> <!-- Dark Legion's Edge Blade -->
 				</group>
 				<group chance="2.6405">
@@ -5403,13 +5403,13 @@
 					<item id="57" min="1988" max="4059" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2132">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="43.2296">
@@ -5523,9 +5523,9 @@
 					<item id="57" min="1647" max="3363" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2313">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="2.0853">
@@ -5633,7 +5633,7 @@
 					<item id="57" min="1696" max="3473" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1824">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="2.1514">
@@ -5740,13 +5740,13 @@
 					<item id="57" min="1717" max="3516" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1844">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="4.2462">
@@ -5860,7 +5860,7 @@
 					<item id="57" min="1978" max="4052" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2126">
-					<item id="11967" min="1" max="1" chance="6.0867" /> <!-- Common Item - Dragon Grinder -->
+					<item id="270" min="1" max="1" chance="0.304335" /> <!-- Common Item - Dragon Grinder -->
 					<item id="5538" min="1" max="1" chance="93.9133" /> <!-- Dragon Grinder Edge -->
 				</group>
 				<group chance="4.8929">
@@ -5976,7 +5976,7 @@
 					<item id="57" min="1759" max="3602" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1891">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="48.2113">
@@ -6089,7 +6089,7 @@
 					<item id="57" min="1778" max="3566" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2186">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="5.0296">
@@ -6205,7 +6205,7 @@
 					<item id="57" min="1584" max="3176" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1947">
-					<item id="11973" min="1" max="1" chance="6.0856" /> <!-- Common Item - Soul Separator -->
+					<item id="236" min="1" max="1" chance="0.30428" /> <!-- Common Item - Soul Separator -->
 					<item id="5537" min="1" max="1" chance="93.9144" /> <!-- Soul Separator Head -->
 				</group>
 				<group chance="30.0488">
@@ -6314,7 +6314,7 @@
 					<item id="57" min="24706" max="49558" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="3.0368">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="33.5964">
@@ -6391,9 +6391,9 @@
 					<item id="57" min="1377" max="2821" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2556">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="40.0328">
@@ -6473,9 +6473,9 @@
 					<item id="57" min="1391" max="2849" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1957">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="42.1651">
@@ -6554,9 +6554,9 @@
 					<item id="57" min="1537" max="3147" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2861">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="36.432">
@@ -6640,11 +6640,11 @@
 					<item id="57" min="1537" max="3147" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4672">
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="6.1658">
@@ -6723,11 +6723,11 @@
 					<item id="57" min="2189" max="4484" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.0904">
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="36.1289">
@@ -6813,11 +6813,11 @@
 					<item id="57" min="2117" max="4337" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.1768">
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="5.6737">
@@ -6897,11 +6897,11 @@
 					<item id="57" min="2161" max="4426" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.2009">
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="38.4762">
@@ -7406,13 +7406,13 @@
 					<item id="57" min="2109" max="4321" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5219">
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
 				</group>
 				<group chance="1.9827">
@@ -7495,7 +7495,7 @@
 					<item id="57" min="1266" max="2593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.136">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="5.0897">
@@ -7655,9 +7655,9 @@
 					<item id="57" min="1266" max="2593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1782">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="5.0804">
@@ -7914,13 +7914,13 @@
 					<item id="57" min="1266" max="2593" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9134">
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
 				</group>
 				<group chance="44.8409">
@@ -8006,11 +8006,11 @@
 					<item id="57" min="4398" max="9008" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.4442">
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="6.442">
@@ -8088,11 +8088,11 @@
 					<item id="57" min="4830" max="9894" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.6847">
-					<item id="12269" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Helm of Nightmare -->
+					<item id="5312" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Helm of Nightmare -->
 					<item id="5527" min="1" max="1" chance="26.3809" /> <!-- Sealed Helm of Nightmare Design -->
-					<item id="12268" min="1" max="1" chance="5.7237" /> <!-- Common Item - Sealed Shield of Nightmare -->
+					<item id="5315" min="1" max="1" chance="0.286185" /> <!-- Common Item - Sealed Shield of Nightmare -->
 					<item id="5495" min="1" max="1" chance="33.5054" /> <!-- Sealed Shield of Nightmare Fragment -->
-					<item id="12261" min="1" max="1" chance="4.0045" /> <!-- Common Item - Sealed Majestic Circlet -->
+					<item id="5317" min="1" max="1" chance="0.200225" /> <!-- Common Item - Sealed Majestic Circlet -->
 					<item id="5528" min="1" max="1" chance="26.381" /> <!-- Sealed Majestic Circlet Design -->
 				</group>
 				<group chance="47.9197">
@@ -8171,13 +8171,13 @@
 					<item id="57" min="4706" max="9640" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5056">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="39.4462">
@@ -8256,13 +8256,13 @@
 					<item id="57" min="14094" max="28869" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5141">
-					<item id="11974" min="1" max="1" chance="1.5221" /> <!-- Common Item - Elysian -->
+					<item id="164" min="1" max="1" chance="0.076105" /> <!-- Common Item - Elysian -->
 					<item id="5533" min="1" max="1" chance="23.4849" /> <!-- Elysian Head -->
-					<item id="11970" min="1" max="1" chance="1.5221" /> <!-- Common Item - Branch of the Mother Tree -->
+					<item id="213" min="1" max="1" chance="0.076105" /> <!-- Common Item - Branch of the Mother Tree -->
 					<item id="5544" min="1" max="1" chance="23.4617" /> <!-- Branch of the Mother Tree Head -->
-					<item id="11969" min="1" max="1" chance="1.5221" /> <!-- Common Item - Flaming Dragon Skull -->
+					<item id="7895" min="1" max="1" chance="0.076105" /> <!-- Common Item - Flaming Dragon Skull -->
 					<item id="8342" min="1" max="1" chance="23.4849" /> <!-- Flaming Dragon Skull Piece -->
-					<item id="11966" min="1" max="1" chance="1.5221" /> <!-- Common Item - Doom Crusher -->
+					<item id="7902" min="1" max="1" chance="0.076105" /> <!-- Common Item - Doom Crusher -->
 					<item id="8349" min="1" max="1" chance="23.4801" /> <!-- Doom Crusher Head -->
 				</group>
 				<group chance="43.309">
@@ -8341,7 +8341,7 @@
 					<item id="57" min="12128" max="24842" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.3043">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="47.7696">
@@ -8418,7 +8418,7 @@
 					<item id="57" min="3458" max="7082" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3718">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="8.5508">
@@ -8514,7 +8514,7 @@
 					<item id="57" min="4030" max="8254" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4329">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="33.8837">
@@ -8591,7 +8591,7 @@
 					<item id="57" min="3458" max="7082" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3715">
-					<item id="11976" min="1" max="1" chance="6.0879" /> <!-- Common Item - Tallum Glaive -->
+					<item id="305" min="1" max="1" chance="0.304395" /> <!-- Common Item - Tallum Glaive -->
 					<item id="5541" min="1" max="1" chance="93.9121" /> <!-- Tallum Glaive Edge -->
 				</group>
 				<group chance="13.8592">
@@ -8681,9 +8681,9 @@
 					<item id="57" min="10074" max="20633" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.87">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="44.9811">
@@ -8760,9 +8760,9 @@
 					<item id="57" min="10596" max="21703" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.491">
-					<item id="12263" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Armor of Nightmare -->
+					<item id="5311" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Armor of Nightmare -->
 					<item id="5522" min="1" max="1" chance="44.5189" /> <!-- Sealed Armor of Nightmare Pattern -->
-					<item id="12262" min="1" max="1" chance="5.4811" /> <!-- Common Item - Sealed Majestic Plate Armor -->
+					<item id="5316" min="1" max="1" chance="0.274055" /> <!-- Common Item - Sealed Majestic Plate Armor -->
 					<item id="5523" min="1" max="1" chance="44.5189" /> <!-- Sealed Majestic Plate Armor Pattern -->
 				</group>
 				<group chance="41.4095">
@@ -8849,9 +8849,9 @@
 					<item id="57" min="10429" max="21361" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.9421">
-					<item id="12266" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Nightmare Robe -->
+					<item id="5326" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Nightmare Robe -->
 					<item id="5487" min="1" max="1" chance="44.4816" /> <!-- Sealed Nightmare Robe Fabric -->
-					<item id="12259" min="1" max="1" chance="5.5184" /> <!-- Common Item - Sealed Majestic Robe -->
+					<item id="5329" min="1" max="1" chance="0.27592" /> <!-- Common Item - Sealed Majestic Robe -->
 					<item id="5488" min="1" max="1" chance="44.4816" /> <!-- Sealed Majestic Robe Fabric -->
 				</group>
 				<group chance="46.4757">
@@ -8930,11 +8930,11 @@
 					<item id="57" min="23997" max="49152" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="22.9141">
-					<item id="12350" min="1" max="1" chance="2.3717" /> <!-- Common Item - Sealed Majestic Necklace -->
+					<item id="6326" min="1" max="1" chance="0.118585" /> <!-- Common Item - Sealed Majestic Necklace -->
 					<item id="6344" min="1" max="1" chance="18.8265" /> <!-- Sealed Majestic Necklace Beads -->
-					<item id="12352" min="1" max="1" chance="3.1593" /> <!-- Common Item - Sealed Majestic Earring -->
+					<item id="6327" min="1" max="1" chance="0.157965" /> <!-- Common Item - Sealed Majestic Earring -->
 					<item id="6342" min="1" max="1" chance="29.0917" /> <!-- Sealed Majestic Earring Gemstone -->
-					<item id="12351" min="1" max="1" chance="4.7389" /> <!-- Common Item - Sealed Majestic Ring -->
+					<item id="6328" min="1" max="1" chance="0.236945" /> <!-- Common Item - Sealed Majestic Ring -->
 					<item id="6346" min="1" max="1" chance="41.8119" /> <!-- Sealed Majestic Ring Gemstone -->
 				</group>
 				<group chance="40.9409">
@@ -9018,13 +9018,13 @@
 					<item id="57" min="34465" max="70594" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="24.8648">
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
 				</group>
 				<group chance="47.6279">

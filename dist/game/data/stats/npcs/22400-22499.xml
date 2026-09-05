@@ -4009,7 +4009,7 @@
 					<item id="57" min="1063" max="2155" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1821">
-					<item id="11932" min="1" max="1" chance="6.9659" /> <!-- Common Item - Lance -->
+					<item id="97" min="1" max="1" chance="0.348295" /> <!-- Common Item - Lance -->
 					<item id="4115" min="1" max="1" chance="93.0341" /> <!-- Lance Blade -->
 				</group>
 				<group chance="5.5269">
@@ -4084,7 +4084,7 @@
 					<item id="57" min="1347" max="2748" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1822">
-					<item id="11955" min="1" max="1" chance="7.4658" /> <!-- Common Item - Carnage Bow -->
+					<item id="288" min="1" max="1" chance="0.37329" /> <!-- Common Item - Carnage Bow -->
 					<item id="5535" min="1" max="1" chance="92.5342" /> <!-- Carnage Bow Stave -->
 				</group>
 				<group chance="4.4123">
@@ -4163,9 +4163,9 @@
 					<item id="57" min="1436" max="2932" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.266">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="7.5024">
@@ -4442,7 +4442,7 @@
 					<item id="57" min="987" max="1976" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1213">
-					<item id="11975" min="1" max="1" chance="6.0817" /> <!-- Common Item - Soul Bow -->
+					<item id="289" min="1" max="1" chance="0.304085" /> <!-- Common Item - Soul Bow -->
 					<item id="5534" min="1" max="1" chance="93.9183" /> <!-- Soul Bow Stave -->
 				</group>
 				<group chance="40.1312">
@@ -4521,9 +4521,9 @@
 					<item id="57" min="1728" max="3460" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.3664">
-					<item id="12265" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
+					<item id="5320" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Leather Armor of Nightmare -->
 					<item id="5480" min="1" max="1" chance="44.4642" /> <!-- Sealed Leather Armor of Nightmare Fabric -->
-					<item id="12258" min="1" max="1" chance="5.5358" /> <!-- Common Item - Sealed Majestic Leather Armor -->
+					<item id="5323" min="1" max="1" chance="0.27679" /> <!-- Common Item - Sealed Majestic Leather Armor -->
 					<item id="5481" min="1" max="1" chance="44.4642" /> <!-- Sealed Majestic Leather Armor Fabric -->
 				</group>
 				<group chance="6.4833">

@@ -2967,11 +2967,11 @@
 					<item id="57" min="589" max="1202" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1374">
-					<item id="11889" min="1" max="1" chance="3.059" /> <!-- Common Item - Great Sword -->
+					<item id="78" min="1" max="1" chance="0.15295" /> <!-- Common Item - Great Sword -->
 					<item id="4104" min="1" max="1" chance="30.5903" /> <!-- Great Sword Blade -->
-					<item id="11916" min="1" max="1" chance="3.059" /> <!-- Common Item - Keshanberk -->
+					<item id="142" min="1" max="1" chance="0.15295" /> <!-- Common Item - Keshanberk -->
 					<item id="4107" min="1" max="1" chance="30.1163" /> <!-- Keshanberk Blade -->
-					<item id="11900" min="1" max="1" chance="3.059" /> <!-- Common Item - Sword of Valhalla -->
+					<item id="148" min="1" max="1" chance="0.15295" /> <!-- Common Item - Sword of Valhalla -->
 					<item id="4108" min="1" max="1" chance="30.1164" /> <!-- Sword of Valhalla Blade -->
 				</group>
 				<group chance="8.4339">
@@ -3057,9 +3057,9 @@
 					<item id="57" min="697" max="1420" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1629">
-					<item id="11918" min="1" max="1" chance="4.5796" /> <!-- Common Item - Heavy War Axe -->
+					<item id="91" min="1" max="1" chance="0.22898" /> <!-- Common Item - Heavy War Axe -->
 					<item id="4105" min="1" max="1" chance="45.7961" /> <!-- Heavy War Axe Head -->
-					<item id="11908" min="1" max="1" chance="4.5796" /> <!-- Common Item - Sprite's Staff -->
+					<item id="92" min="1" max="1" chance="0.22898" /> <!-- Common Item - Sprite's Staff -->
 					<item id="4106" min="1" max="1" chance="45.0447" /> <!-- Sprite's Staff Head -->
 				</group>
 				<group chance="8.0623">
@@ -3148,7 +3148,7 @@
 					<item id="57" min="754" max="1534" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1611">
-					<item id="11890" min="1" max="1" chance="10.0078" /> <!-- Common Item - Great Axe -->
+					<item id="300" min="1" max="1" chance="0.50039" /> <!-- Common Item - Great Axe -->
 					<item id="4113" min="1" max="1" chance="89.9922" /> <!-- Great Axe Head -->
 				</group>
 				<group chance="16.2835">
@@ -3409,11 +3409,11 @@
 					<item id="57" min="675" max="1379" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.5159">
-					<item id="12338" min="1" max="1" chance="4.5566" /> <!-- Common Item - Adamantite Earring -->
+					<item id="856" min="1" max="1" chance="0.22783" /> <!-- Common Item - Adamantite Earring -->
 					<item id="4049" min="1" max="1" chance="29.1581" /> <!-- Adamantite Earring Gemstone -->
-					<item id="12339" min="1" max="1" chance="3.4209" /> <!-- Common Item - Adamantite Necklace -->
+					<item id="918" min="1" max="1" chance="0.171045" /> <!-- Common Item - Adamantite Necklace -->
 					<item id="4051" min="1" max="1" chance="21.559" /> <!-- Adamantite Necklace Chain -->
-					<item id="12340" min="1" max="1" chance="6.863" /> <!-- Common Item - Adamantite Ring -->
+					<item id="887" min="1" max="1" chance="0.34315" /> <!-- Common Item - Adamantite Ring -->
 					<item id="4050" min="1" max="1" chance="34.4424" /> <!-- Adamantite Ring Wire -->
 				</group>
 				<group chance="17.2773">
@@ -3501,9 +3501,9 @@
 					<item id="57" min="804" max="1635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1864">
-					<item id="11915" min="1" max="1" chance="4.6104" /> <!-- Common Item - Kris -->
+					<item id="229" min="1" max="1" chance="0.23052" /> <!-- Common Item - Kris -->
 					<item id="4109" min="1" max="1" chance="45.3896" /> <!-- Kris Edge -->
-					<item id="11919" min="1" max="1" chance="4.6104" /> <!-- Common Item - Hell Knife -->
+					<item id="243" min="1" max="1" chance="0.23052" /> <!-- Common Item - Hell Knife -->
 					<item id="4110" min="1" max="1" chance="45.3896" /> <!-- Hell Knife Edge -->
 				</group>
 				<group chance="17.3625">
@@ -3590,9 +3590,9 @@
 					<item id="57" min="941" max="1906" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4343">
-					<item id="12194" min="1" max="1" chance="4.4096" /> <!-- Common Item - Blue Wolf Leather Armor -->
+					<item id="2391" min="1" max="1" chance="0.22048" /> <!-- Common Item - Blue Wolf Leather Armor -->
 					<item id="4082" min="1" max="1" chance="45.5904" /> <!-- Blue Wolf Leather Armor Texture -->
-					<item id="12186" min="1" max="1" chance="4.4096" /> <!-- Common Item - Leather Armor of Doom -->
+					<item id="2392" min="1" max="1" chance="0.22048" /> <!-- Common Item - Leather Armor of Doom -->
 					<item id="4083" min="1" max="1" chance="45.5904" /> <!-- Leather Armor of Doom Design -->
 				</group>
 				<group chance="16.2589">
@@ -3770,11 +3770,11 @@
 					<item id="57" min="990" max="2008" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.6337">
-					<item id="12183" min="1" max="1" chance="3.8238" /> <!-- Common Item - Doom Shield -->
+					<item id="110" min="1" max="1" chance="0.19119" /> <!-- Common Item - Doom Shield -->
 					<item id="4077" min="1" max="1" chance="33.8862" /> <!-- Doom Shield Fragment -->
-					<item id="12202" min="1" max="1" chance="2.676" /> <!-- Common Item - Blue Wolf Helmet -->
+					<item id="2416" min="1" max="1" chance="0.1338" /> <!-- Common Item - Blue Wolf Helmet -->
 					<item id="4088" min="1" max="1" chance="28.469" /> <!-- Blue Wolf Helmet Design -->
-					<item id="12185" min="1" max="1" chance="2.676" /> <!-- Common Item - Doom Helmet -->
+					<item id="2417" min="1" max="1" chance="0.1338" /> <!-- Common Item - Doom Helmet -->
 					<item id="4089" min="1" max="1" chance="28.469" /> <!-- Doom Helmet Pattern -->
 				</group>
 				<group chance="20.944">
@@ -3861,11 +3861,11 @@
 					<item id="57" min="742" max="1509" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5715">
-					<item id="12225" min="1" max="1" chance="6.7053" /> <!-- Common Item - Sealed Dark Crystal Shield -->
+					<item id="5292" min="1" max="1" chance="0.335265" /> <!-- Common Item - Sealed Dark Crystal Shield -->
 					<item id="5494" min="1" max="1" chance="33.9386" /> <!-- Sealed Dark Crystal Shield Fragment -->
-					<item id="12226" min="1" max="1" chance="4.6976" /> <!-- Common Item - Sealed Dark Crystal Helmet -->
+					<item id="5289" min="1" max="1" chance="0.23488" /> <!-- Common Item - Sealed Dark Crystal Helmet -->
 					<item id="5525" min="1" max="1" chance="24.9804" /> <!-- Sealed Dark Crystal Helmet Design -->
-					<item id="12234" min="1" max="1" chance="4.6976" /> <!-- Common Item - Sealed Tallum Helmet -->
+					<item id="5294" min="1" max="1" chance="0.23488" /> <!-- Common Item - Sealed Tallum Helmet -->
 					<item id="5526" min="1" max="1" chance="24.9805" /> <!-- Sealed Tallum Helm Design -->
 				</group>
 				<group chance="16.0204">
@@ -3953,11 +3953,11 @@
 					<item id="57" min="1195" max="2431" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4788">
-					<item id="12232" min="1" max="1" chance="4.5113" /> <!-- Common Item - Sealed Tallum Tunic -->
+					<item id="5304" min="1" max="1" chance="0.225565" /> <!-- Common Item - Sealed Tallum Tunic -->
 					<item id="5485" min="1" max="1" chance="26.1184" /> <!-- Sealed Tallum Tunic Texture -->
-					<item id="12223" min="1" max="1" chance="2.7732" /> <!-- Common Item - Sealed Dark Crystal Robe -->
+					<item id="5308" min="1" max="1" chance="0.13866" /> <!-- Common Item - Sealed Dark Crystal Robe -->
 					<item id="5486" min="1" max="1" chance="18.3787" /> <!-- Sealed Dark Crystal Robe Fabric -->
-					<item id="12235" min="1" max="1" chance="7.2233" /> <!-- Common Item - Sealed Tallum Stockings -->
+					<item id="5305" min="1" max="1" chance="0.361165" /> <!-- Common Item - Sealed Tallum Stockings -->
 					<item id="5489" min="1" max="1" chance="40.9951" /> <!-- Sealed Tallum Stockings Fabric -->
 				</group>
 				<group chance="14.3599">
@@ -4041,7 +4041,7 @@
 					<item id="57" min="652" max="1319" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1138">
-					<item id="11932" min="1" max="1" chance="6.9659" /> <!-- Common Item - Lance -->
+					<item id="97" min="1" max="1" chance="0.348295" /> <!-- Common Item - Lance -->
 					<item id="4115" min="1" max="1" chance="93.0341" /> <!-- Lance Blade -->
 				</group>
 				<group chance="17.5971">
@@ -4127,13 +4127,13 @@
 					<item id="57" min="958" max="1943" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.7935">
-					<item id="12188" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Doom Boots -->
+					<item id="601" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Doom Boots -->
 					<item id="4099" min="1" max="1" chance="22.3517" /> <!-- Doom Boots Part -->
-					<item id="12189" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Blue Wolf Boots -->
+					<item id="2439" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Blue Wolf Boots -->
 					<item id="4090" min="1" max="1" chance="22.3517" /> <!-- Blue Wolf Boots Design -->
-					<item id="12187" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Doom Gloves -->
+					<item id="2475" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Doom Gloves -->
 					<item id="4091" min="1" max="1" chance="22.3517" /> <!-- Doom Gloves Part -->
-					<item id="12190" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Blue Wolf Gloves -->
+					<item id="2487" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Blue Wolf Gloves -->
 					<item id="4096" min="1" max="1" chance="22.3517" /> <!-- Blue Wolf Gloves Fabric -->
 				</group>
 				<group chance="24.221">
@@ -4220,9 +4220,9 @@
 					<item id="57" min="914" max="1854" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.4225">
-					<item id="12194" min="1" max="1" chance="4.4096" /> <!-- Common Item - Blue Wolf Leather Armor -->
+					<item id="2391" min="1" max="1" chance="0.22048" /> <!-- Common Item - Blue Wolf Leather Armor -->
 					<item id="4082" min="1" max="1" chance="45.5904" /> <!-- Blue Wolf Leather Armor Texture -->
-					<item id="12186" min="1" max="1" chance="4.4096" /> <!-- Common Item - Leather Armor of Doom -->
+					<item id="2392" min="1" max="1" chance="0.22048" /> <!-- Common Item - Leather Armor of Doom -->
 					<item id="4083" min="1" max="1" chance="45.5904" /> <!-- Leather Armor of Doom Design -->
 				</group>
 				<group chance="12.9179">
@@ -4314,13 +4314,13 @@
 					<item id="57" min="868" max="1764" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9011">
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
 				</group>
 				<group chance="20.506">
@@ -4425,11 +4425,11 @@
 					<item id="57" min="1193" max="2435" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4863">
-					<item id="12345" min="1" max="1" chance="3.8667" /> <!-- Common Item - Sealed Phoenix Earring -->
+					<item id="6324" min="1" max="1" chance="0.193335" /> <!-- Common Item - Sealed Phoenix Earring -->
 					<item id="6341" min="1" max="1" chance="27.6997" /> <!-- Sealed Phoenix Earring Gemstone -->
-					<item id="12344" min="1" max="1" chance="2.9028" /> <!-- Common Item - Sealed Phoenix Necklace -->
+					<item id="6323" min="1" max="1" chance="0.14514" /> <!-- Common Item - Sealed Phoenix Necklace -->
 					<item id="6343" min="1" max="1" chance="21.4129" /> <!-- Sealed Phoenix Necklace Beads -->
-					<item id="12346" min="1" max="1" chance="5.8057" /> <!-- Common Item - Sealed Phoenix Ring -->
+					<item id="6325" min="1" max="1" chance="0.290285" /> <!-- Common Item - Sealed Phoenix Ring -->
 					<item id="6345" min="1" max="1" chance="38.3122" /> <!-- Sealed Phoenix Ring Gemstone -->
 				</group>
 				<group chance="28.2665">
@@ -4539,11 +4539,11 @@
 					<item id="57" min="1293" max="2635" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.5191">
-					<item id="12222" min="1" max="1" chance="4.5113" /> <!-- Common Item - Sealed Dark Crystal Leather Armor -->
+					<item id="5297" min="1" max="1" chance="0.225565" /> <!-- Common Item - Sealed Dark Crystal Leather Armor -->
 					<item id="5478" min="1" max="1" chance="26.1184" /> <!-- Sealed Dark Crystal Leather Armor Pattern -->
-					<item id="12230" min="1" max="1" chance="2.7732" /> <!-- Common Item - Sealed Tallum Leather Armor -->
+					<item id="5301" min="1" max="1" chance="0.13866" /> <!-- Common Item - Sealed Tallum Leather Armor -->
 					<item id="5479" min="1" max="1" chance="18.3787" /> <!-- Sealed Tallum Leather Armor Pattern -->
-					<item id="12228" min="1" max="1" chance="7.2233" /> <!-- Common Item - Sealed Dark Crystal Leggings -->
+					<item id="5298" min="1" max="1" chance="0.361165" /> <!-- Common Item - Sealed Dark Crystal Leggings -->
 					<item id="5482" min="1" max="1" chance="40.9951" /> <!-- Sealed Dark Crystal Leggings Design -->
 				</group>
 				<group chance="20.5452">
@@ -4647,11 +4647,11 @@
 					<item id="57" min="1116" max="2286" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.3945">
-					<item id="12345" min="1" max="1" chance="3.8667" /> <!-- Common Item - Sealed Phoenix Earring -->
+					<item id="6324" min="1" max="1" chance="0.193335" /> <!-- Common Item - Sealed Phoenix Earring -->
 					<item id="6341" min="1" max="1" chance="27.6997" /> <!-- Sealed Phoenix Earring Gemstone -->
-					<item id="12344" min="1" max="1" chance="2.9028" /> <!-- Common Item - Sealed Phoenix Necklace -->
+					<item id="6323" min="1" max="1" chance="0.14514" /> <!-- Common Item - Sealed Phoenix Necklace -->
 					<item id="6343" min="1" max="1" chance="21.4129" /> <!-- Sealed Phoenix Necklace Beads -->
-					<item id="12346" min="1" max="1" chance="5.8057" /> <!-- Common Item - Sealed Phoenix Ring -->
+					<item id="6325" min="1" max="1" chance="0.290285" /> <!-- Common Item - Sealed Phoenix Ring -->
 					<item id="6345" min="1" max="1" chance="38.3122" /> <!-- Sealed Phoenix Ring Gemstone -->
 				</group>
 				<group chance="27.4841">
@@ -4754,13 +4754,13 @@
 					<item id="57" min="1094" max="2233" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.1385">
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
 				</group>
 				<group chance="19.6909">
@@ -4866,13 +4866,13 @@
 					<item id="57" min="918" max="1873" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.674">
-					<item id="12267" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Boots of Nightmare -->
+					<item id="5314" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Boots of Nightmare -->
 					<item id="5502" min="1" max="1" chance="21.531" /> <!-- Sealed Boots of Nightmare Lining -->
-					<item id="12260" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Boots -->
+					<item id="5319" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Boots -->
 					<item id="5503" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Boots Lining -->
-					<item id="12264" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
+					<item id="11465" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Gauntlet of Nightmare -->
 					<item id="5514" min="1" max="1" chance="21.531" /> <!-- Sealed Gauntlets of Nightmare Design -->
-					<item id="12257" min="1" max="1" chance="3.469" /> <!-- Common Item - Sealed Majestic Gauntlet -->
+					<item id="11458" min="1" max="1" chance="0.17345" /> <!-- Common Item - Sealed Majestic Gauntlet -->
 					<item id="5515" min="1" max="1" chance="21.531" /> <!-- Sealed Majestic Gauntlets Design -->
 				</group>
 				<group chance="1.2058">
@@ -4981,13 +4981,13 @@
 					<item id="57" min="909" max="1851" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9451">
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
 				</group>
 				<group chance="1.409">
@@ -5092,11 +5092,11 @@
 					<item id="57" min="1305" max="2663" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.0075">
-					<item id="12225" min="1" max="1" chance="6.7053" /> <!-- Common Item - Sealed Dark Crystal Shield -->
+					<item id="5292" min="1" max="1" chance="0.335265" /> <!-- Common Item - Sealed Dark Crystal Shield -->
 					<item id="5494" min="1" max="1" chance="33.9386" /> <!-- Sealed Dark Crystal Shield Fragment -->
-					<item id="12226" min="1" max="1" chance="4.6976" /> <!-- Common Item - Sealed Dark Crystal Helmet -->
+					<item id="5289" min="1" max="1" chance="0.23488" /> <!-- Common Item - Sealed Dark Crystal Helmet -->
 					<item id="5525" min="1" max="1" chance="24.9804" /> <!-- Sealed Dark Crystal Helmet Design -->
-					<item id="12234" min="1" max="1" chance="4.6976" /> <!-- Common Item - Sealed Tallum Helmet -->
+					<item id="5294" min="1" max="1" chance="0.23488" /> <!-- Common Item - Sealed Tallum Helmet -->
 					<item id="5526" min="1" max="1" chance="24.9805" /> <!-- Sealed Tallum Helm Design -->
 				</group>
 				<group chance="1.563">
@@ -5203,13 +5203,13 @@
 					<item id="57" min="918" max="1872" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9549">
-					<item id="12224" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Boots -->
+					<item id="5291" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Boots -->
 					<item id="5496" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Boots Lining -->
-					<item id="12231" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Boots -->
+					<item id="5296" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Boots -->
 					<item id="5497" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Boots Lining -->
-					<item id="12221" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
+					<item id="5290" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Dark Crystal Gloves -->
 					<item id="5508" min="1" max="1" chance="21.0821" /> <!-- Sealed Dark Crystal Gloves Design -->
-					<item id="12229" min="1" max="1" chance="3.9179" /> <!-- Common Item - Sealed Tallum Gloves -->
+					<item id="5295" min="1" max="1" chance="0.195895" /> <!-- Common Item - Sealed Tallum Gloves -->
 					<item id="5509" min="1" max="1" chance="21.0821" /> <!-- Sealed Tallum Gloves Design -->
 				</group>
 				<group chance="1.099">
@@ -5306,11 +5306,11 @@
 					<item id="57" min="1187" max="2425" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.4798">
-					<item id="12345" min="1" max="1" chance="3.8667" /> <!-- Common Item - Sealed Phoenix Earring -->
+					<item id="6324" min="1" max="1" chance="0.193335" /> <!-- Common Item - Sealed Phoenix Earring -->
 					<item id="6341" min="1" max="1" chance="27.6997" /> <!-- Sealed Phoenix Earring Gemstone -->
-					<item id="12344" min="1" max="1" chance="2.9028" /> <!-- Common Item - Sealed Phoenix Necklace -->
+					<item id="6323" min="1" max="1" chance="0.14514" /> <!-- Common Item - Sealed Phoenix Necklace -->
 					<item id="6343" min="1" max="1" chance="21.4129" /> <!-- Sealed Phoenix Necklace Beads -->
-					<item id="12346" min="1" max="1" chance="5.8057" /> <!-- Common Item - Sealed Phoenix Ring -->
+					<item id="6325" min="1" max="1" chance="0.290285" /> <!-- Common Item - Sealed Phoenix Ring -->
 					<item id="6345" min="1" max="1" chance="38.3122" /> <!-- Sealed Phoenix Ring Gemstone -->
 				</group>
 				<group chance="21.4447">

@@ -265,7 +265,7 @@
 					<item id="57" min="823" max="1681" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1921">
-					<item id="11896" min="1" max="1" chance="9.1795" /> <!-- Common Item - Dark Elven Long Bow -->
+					<item id="284" min="1" max="1" chance="0.458975" /> <!-- Common Item - Dark Elven Long Bow -->
 					<item id="4112" min="1" max="1" chance="90.8205" /> <!-- Dark Elven Longbow Shaft -->
 				</group>
 				<group chance="15.0017">
@@ -387,13 +387,13 @@
 					<item id="57" min="755" max="1542" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.7513">
-					<item id="12159" min="1" max="1" chance="3.6853" /> <!-- Common Item - Zubei's Shield -->
+					<item id="633" min="1" max="1" chance="0.184265" /> <!-- Common Item - Zubei's Shield -->
 					<item id="4101" min="1" max="1" chance="23.3935" /> <!-- Zubei's Shield Fragment -->
-					<item id="12171" min="1" max="1" chance="3.6853" /> <!-- Common Item - Avadon Shield -->
+					<item id="673" min="1" max="1" chance="0.184265" /> <!-- Common Item - Avadon Shield -->
 					<item id="4439" min="1" max="1" chance="27.8302" /> <!-- Avadon Shield Fragment -->
-					<item id="12160" min="1" max="1" chance="2.5785" /> <!-- Common Item - Zubei's Helmet -->
+					<item id="503" min="1" max="1" chance="0.128925" /> <!-- Common Item - Zubei's Helmet -->
 					<item id="4102" min="1" max="1" chance="18.1243" /> <!-- Zubei's Helmet Design -->
-					<item id="12170" min="1" max="1" chance="2.5785" /> <!-- Common Item - Avadon Circlet -->
+					<item id="2415" min="1" max="1" chance="0.128925" /> <!-- Common Item - Avadon Circlet -->
 					<item id="4072" min="1" max="1" chance="18.1244" /> <!-- Avadon Circlet Pattern -->
 				</group>
 				<group chance="12.8793">
@@ -511,11 +511,11 @@
 					<item id="57" min="840" max="1710" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.9185">
-					<item id="12151" min="1" max="1" chance="3.6406" /> <!-- Common Item - Zubei's Leather Shirt -->
+					<item id="2384" min="1" max="1" chance="0.18203" /> <!-- Common Item - Zubei's Leather Shirt -->
 					<item id="4066" min="1" max="1" chance="26.8656" /> <!-- Zubei's Leather Shirt Fabric -->
-					<item id="12165" min="1" max="1" chance="2.2343" /> <!-- Common Item - Avadon Leather Armor -->
+					<item id="2390" min="1" max="1" chance="0.111715" /> <!-- Common Item - Avadon Leather Armor -->
 					<item id="4068" min="1" max="1" chance="20.6395" /> <!-- Avadon Leather Armor Lining -->
-					<item id="12150" min="1" max="1" chance="5.8287" /> <!-- Common Item - Zubei's Leather Gaiters -->
+					<item id="2388" min="1" max="1" chance="0.291435" /> <!-- Common Item - Zubei's Leather Gaiters -->
 					<item id="4067" min="1" max="1" chance="40.7913" /> <!-- Zubei's Leather Gaiter Texture -->
 				</group>
 				<group chance="15.4254">
@@ -629,11 +629,11 @@
 					<item id="57" min="920" max="1876" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2147">
-					<item id="11889" min="1" max="1" chance="3.059" /> <!-- Common Item - Great Sword -->
+					<item id="78" min="1" max="1" chance="0.15295" /> <!-- Common Item - Great Sword -->
 					<item id="4104" min="1" max="1" chance="30.5903" /> <!-- Great Sword Blade -->
-					<item id="11916" min="1" max="1" chance="3.059" /> <!-- Common Item - Keshanberk -->
+					<item id="142" min="1" max="1" chance="0.15295" /> <!-- Common Item - Keshanberk -->
 					<item id="4107" min="1" max="1" chance="30.1163" /> <!-- Keshanberk Blade -->
-					<item id="11900" min="1" max="1" chance="3.059" /> <!-- Common Item - Sword of Valhalla -->
+					<item id="148" min="1" max="1" chance="0.15295" /> <!-- Common Item - Sword of Valhalla -->
 					<item id="4108" min="1" max="1" chance="30.1164" /> <!-- Sword of Valhalla Blade -->
 				</group>
 				<group chance="16.9141">
@@ -844,9 +844,9 @@
 					<item id="57" min="946" max="1918" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2202">
-					<item id="11918" min="1" max="1" chance="4.5796" /> <!-- Common Item - Heavy War Axe -->
+					<item id="91" min="1" max="1" chance="0.22898" /> <!-- Common Item - Heavy War Axe -->
 					<item id="4105" min="1" max="1" chance="45.7961" /> <!-- Heavy War Axe Head -->
-					<item id="11908" min="1" max="1" chance="4.5796" /> <!-- Common Item - Sprite's Staff -->
+					<item id="92" min="1" max="1" chance="0.22898" /> <!-- Common Item - Sprite's Staff -->
 					<item id="4106" min="1" max="1" chance="45.0447" /> <!-- Sprite's Staff Head -->
 				</group>
 				<group chance="7.4309">
@@ -931,13 +931,13 @@
 					<item id="57" min="1213" max="2457" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="2.2679">
-					<item id="12188" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Doom Boots -->
+					<item id="601" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Doom Boots -->
 					<item id="4099" min="1" max="1" chance="22.3517" /> <!-- Doom Boots Part -->
-					<item id="12189" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Blue Wolf Boots -->
+					<item id="2439" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Blue Wolf Boots -->
 					<item id="4090" min="1" max="1" chance="22.3517" /> <!-- Blue Wolf Boots Design -->
-					<item id="12187" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Doom Gloves -->
+					<item id="2475" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Doom Gloves -->
 					<item id="4091" min="1" max="1" chance="22.3517" /> <!-- Doom Gloves Part -->
-					<item id="12190" min="1" max="1" chance="2.6483" /> <!-- Common Item - Sealed Blue Wolf Gloves -->
+					<item id="2487" min="1" max="1" chance="0.132415" /> <!-- Common Item - Sealed Blue Wolf Gloves -->
 					<item id="4096" min="1" max="1" chance="22.3517" /> <!-- Blue Wolf Gloves Fabric -->
 				</group>
 				<group chance="24.3173">
@@ -1025,11 +1025,11 @@
 					<item id="57" min="1297" max="2625" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.7937">
-					<item id="12204" min="1" max="1" chance="2.7002" /> <!-- Common Item - Blue Wolf Breastplate -->
+					<item id="358" min="1" max="1" chance="0.13501" /> <!-- Common Item - Blue Wolf Breastplate -->
 					<item id="4078" min="1" max="1" chance="29.6205" /> <!-- Blue Wolf Breastplate Part -->
-					<item id="12184" min="1" max="1" chance="1.6621" /> <!-- Common Item - Doom Plate Armor -->
+					<item id="2381" min="1" max="1" chance="0.083105" /> <!-- Common Item - Doom Plate Armor -->
 					<item id="4081" min="1" max="1" chance="19.9864" /> <!-- Doom Plate Armor Temper -->
-					<item id="12193" min="1" max="1" chance="4.3191" /> <!-- Common Item - Blue Wolf Gaiters -->
+					<item id="2380" min="1" max="1" chance="0.215955" /> <!-- Common Item - Blue Wolf Gaiters -->
 					<item id="4080" min="1" max="1" chance="41.7117" /> <!-- Blue Wolf Gaiters Material -->
 				</group>
 				<group chance="19.9496">
@@ -1115,7 +1115,7 @@
 					<item id="57" min="1042" max="2108" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.1821">
-					<item id="11933" min="1" max="1" chance="6.955" /> <!-- Common Item - Bellion Cestus -->
+					<item id="268" min="1" max="1" chance="0.34775" /> <!-- Common Item - Bellion Cestus -->
 					<item id="4120" min="1" max="1" chance="93.045" /> <!-- Bellion Cestus Edge -->
 				</group>
 				<group chance="16.682">
@@ -1987,9 +1987,9 @@
 					<item id="57" min="883" max="1802" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2064">
-					<item id="11918" min="1" max="1" chance="4.5796" /> <!-- Common Item - Heavy War Axe -->
+					<item id="91" min="1" max="1" chance="0.22898" /> <!-- Common Item - Heavy War Axe -->
 					<item id="4105" min="1" max="1" chance="45.7961" /> <!-- Heavy War Axe Head -->
-					<item id="11908" min="1" max="1" chance="4.5796" /> <!-- Common Item - Sprite's Staff -->
+					<item id="92" min="1" max="1" chance="0.22898" /> <!-- Common Item - Sprite's Staff -->
 					<item id="4106" min="1" max="1" chance="45.0447" /> <!-- Sprite's Staff Head -->
 				</group>
 				<group chance="16.1064">
@@ -2104,7 +2104,7 @@
 					<item id="57" min="973" max="1988" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2295">
-					<item id="11903" min="1" max="1" chance="9.0909" /> <!-- Common Item - Arthro Nail -->
+					<item id="267" min="1" max="1" chance="0.454545" /> <!-- Common Item - Arthro Nail -->
 					<item id="4111" min="1" max="1" chance="90.9091" /> <!-- Arthro Nail Blade -->
 				</group>
 				<group chance="13.2042">
@@ -2334,7 +2334,7 @@
 					<item id="57" min="1020" max="2079" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="0.2379">
-					<item id="11896" min="1" max="1" chance="9.1795" /> <!-- Common Item - Dark Elven Long Bow -->
+					<item id="284" min="1" max="1" chance="0.458975" /> <!-- Common Item - Dark Elven Long Bow -->
 					<item id="4112" min="1" max="1" chance="90.8205" /> <!-- Dark Elven Longbow Shaft -->
 				</group>
 				<group chance="36.365">
@@ -2450,11 +2450,11 @@
 					<item id="57" min="1041" max="2116" chance="100" /> <!-- Adena -->
 				</group>
 				<group chance="1.1372">
-					<item id="12175" min="1" max="1" chance="3.6406" /> <!-- Common Item - Tunic of Zubei -->
+					<item id="2397" min="1" max="1" chance="0.18203" /> <!-- Common Item - Tunic of Zubei -->
 					<item id="4069" min="1" max="1" chance="26.8656" /> <!-- Tunic of Zubei Fabric -->
-					<item id="12166" min="1" max="1" chance="2.2343" /> <!-- Common Item - Avadon Robe -->
+					<item id="2406" min="1" max="1" chance="0.111715" /> <!-- Common Item - Avadon Robe -->
 					<item id="4071" min="1" max="1" chance="20.6395" /> <!-- Avadon Robe Fabric -->
-					<item id="12176" min="1" max="1" chance="5.8287" /> <!-- Common Item - Stockings of Zubei -->
+					<item id="2402" min="1" max="1" chance="0.291435" /> <!-- Common Item - Stockings of Zubei -->
 					<item id="4070" min="1" max="1" chance="40.7913" /> <!-- Stockings of Zubei Fabric -->
 				</group>
 				<group chance="37.0459">
