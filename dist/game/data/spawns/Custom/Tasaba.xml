@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn zone="Custom_tasaba">
+		<territory minZ="-4454" maxZ="-2454">
+			<node x="98519" y="223511" />
+			<node x="98460" y="222546" />
+			<node x="96145" y="222583" />
+			<node x="94716" y="225815" />
+			<node x="88023" y="228963" />
+			<node x="86998" y="230967" />
+			<node x="90002" y="232765" />
+			<node x="92985" y="230120" />
+			<node x="94457" y="227586" />
+			<node x="96436" y="225763" />
+			<node x="97216" y="224496" />
+		</territory>
+		<npc id="20784" count="8" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="21639" count="8" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman -->
+		<npc id="20785" count="8" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21640" count="8" respawnDelay="40" respawnRandom="20" /> <!-- Tasaba Lizardman Shaman -->
+		<npc id="21642" count="2" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+		<npc id="21643" count="2" respawnDelay="60" respawnRandom="30" /> <!-- Tasaba Lizardman Sniper -->
+	</spawn>
+</list>
