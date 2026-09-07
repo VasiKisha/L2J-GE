@@ -4,6 +4,7 @@ Q00038_DragonFangs
 Q00039_RedEyeInvaders
 Q00293_TheHiddenVeins
 Q00325_GrimCollector
+Q00351_BlackSwan
 Q00364_JovialAccordion*
 Q00378_GrandFeast*
 Q00385_YokeOfThePast

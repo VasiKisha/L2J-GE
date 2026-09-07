@@ -19,6 +19,7 @@ package quests.Q00351_BlackSwan;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.l2jmobius.commons.util.Rnd;
 import org.l2jmobius.gameserver.config.PlayerConfig;
 import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
@@ -53,13 +54,13 @@ public class Q00351_BlackSwan extends Quest
 	private static final int TASABA_LIZARDMAN_SHAMAN1 = 20785;
 	private static final int TASABA_LIZARDMAN2 = 21639;
 	private static final int TASABA_LIZARDMAN_SHAMAN2 = 21640;
-	private static final Map<Integer, Integer> MONSTER_DROP_CHANCES = new HashMap<>();
+	private static final Map<Integer, Double> MONSTER_DROP_CHANCES = new HashMap<>();
 	static
 	{
-		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN1, 4);
-		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN_SHAMAN1, 3);
-		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN2, 4);
-		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN_SHAMAN2, 3);
+		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN1, 0.04);
+		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN_SHAMAN1, 0.03);
+		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN2, 0.04);
+		MONSTER_DROP_CHANCES.put(TASABA_LIZARDMAN_SHAMAN2, 0.03);
 	}
 	
 	public Q00351_BlackSwan()
@@ -154,26 +155,32 @@ public class Q00351_BlackSwan extends Quest
 			return;
 		}
 		
-		final int random = getRandom(20);
-		if (random < 10)
+		final Player player = qs.getPlayer();
+		
+		// ==========================================
+		// 1. URČENÍ ZÁKLADNÍHO POČTU KUSŮ (0, 1, nebo 2)
+		// ==========================================
+		int baseAmount = 0;
+		final double roll = Rnd.nextDouble();
+		
+		if (roll < 0.50)
 		{
-			giveItemRandomly(qs.getPlayer(), npc, LIZARD_FANG, 1, 0, 1, true);
-			if (getRandom(20) == 0)
-			{
-				giveItemRandomly(qs.getPlayer(), npc, BARREL_OF_LEAGUE, 1, 0, 1, false);
-			}
+			baseAmount = 1;
 		}
-		else if (random < 15)
+		else if (roll < 0.75)
 		{
-			giveItemRandomly(qs.getPlayer(), npc, LIZARD_FANG, 2, 0, 1, true);
-			if (getRandom(20) == 0)
-			{
-				giveItemRandomly(qs.getPlayer(), npc, BARREL_OF_LEAGUE, 1, 0, 1, false);
-			}
+			baseAmount = 2;
 		}
-		else if (getRandom(100) < MONSTER_DROP_CHANCES.get(npc.getId()))
+		
+		if (baseAmount > 0)
 		{
-			giveItemRandomly(qs.getPlayer(), npc, BARREL_OF_LEAGUE, 1, 0, 1, true);
+			giveItemWithChance(player, npc, LIZARD_FANG, baseAmount, baseAmount, 0, 1.0, true);
+		}
+		
+		final Double barrelChance = MONSTER_DROP_CHANCES.get(npc.getId());
+		if (barrelChance != null)
+		{
+			giveItemWithChance(player, npc, BARREL_OF_LEAGUE, 1, 1, 0, barrelChance, true);
 		}
 	}
 	
