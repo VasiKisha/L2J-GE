@@ -22,7 +22,6 @@ import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.entity.actor.enums.player.PlayerClass;
 import org.l2jmobius.gameserver.entity.item.instance.Item;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.network.serverpackets.SocialAction;
 import org.l2jmobius.gameserver.util.LocationUtil;
@@ -201,16 +200,15 @@ public class Q00401_PathOfTheWarrior extends Quest
 				case TRACKER_SKELETON:
 				case TRACKER_SKELETON_LIDER:
 				{
-					if (hasQuestItems(killer, WARRIOR_GUILD_MARK) && (getQuestItemsCount(killer, RUSTED_BRONZE_SWORD1) < 10) && (getRandom(10) < 4))
+					if (hasQuestItems(killer, WARRIOR_GUILD_MARK))
 					{
-						giveItems(killer, RUSTED_BRONZE_SWORD1, 1);
-						if (getQuestItemsCount(killer, RUSTED_BRONZE_SWORD1) == 10)
+						// Původní šance: getRandom(10) < 4 odpovídá 40 % = 0.4d
+						// Parametry: (player, npc, itemId, amountToGive, limit, dropChance, playSound)
+						giveItemWithChance(killer, npc, RUSTED_BRONZE_SWORD1, 1, 10, 0.4d, true);
+						
+						if (getQuestItemsCount(killer, RUSTED_BRONZE_SWORD1) >= 10)
 						{
 							qs.setCond(3, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -218,16 +216,14 @@ public class Q00401_PathOfTheWarrior extends Quest
 				case VENOMOUS_SPIDERS:
 				case ARACHNID_TRACKER:
 				{
-					if ((getQuestItemsCount(killer, VENOMOUS_SPIDERS_LEG) < 20) && npc.isScriptValue(1))
+					if (npc.isScriptValue(1))
 					{
-						giveItems(killer, VENOMOUS_SPIDERS_LEG, 1);
-						if (getQuestItemsCount(killer, VENOMOUS_SPIDERS_LEG) == 20)
+						// Původní šance byla 100 % = 1.0d
+						giveItemWithChance(killer, npc, VENOMOUS_SPIDERS_LEG, 1, 20, 1.0d, true);
+						
+						if (getQuestItemsCount(killer, VENOMOUS_SPIDERS_LEG) >= 20)
 						{
 							qs.setCond(6, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
