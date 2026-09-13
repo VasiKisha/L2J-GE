@@ -278,10 +278,10 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 						count += 5;
 					}
 					
-					if (getRandomBoolean() && (qs.getPlayer().getPlayerClass() == PlayerClass.ARTISAN))
+					// AMBER_LUMP pro Artisana: 1 ks, BEZ LIMITU (0), šance 50 % (0.5)
+					if (qs.getPlayer().getPlayerClass() == PlayerClass.ARTISAN)
 					{
-						giveItems(qs.getPlayer(), AMBER_LUMP, 1);
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
+						giveItemWithChance(qs.getPlayer(), npc, AMBER_LUMP, 1, 0, 0.5, true);
 					}
 					
 					if ((getQuestItemsCount(qs.getPlayer(), AMBER_BEAD) + count) < 70)
@@ -291,7 +291,8 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 					
 					if (count > 0)
 					{
-						giveItemRandomly(qs.getPlayer(), npc, AMBER_BEAD, count, 70, 1, true);
+						// AMBER_BEAD: 'count' ks, LIMIT 70, šance 100 % (1.0)
+						giveItemWithChance(qs.getPlayer(), npc, AMBER_BEAD, count, 70, 1.0, true);
 					}
 				}
 				break;
@@ -301,15 +302,7 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 2, npc);
 				if (qs != null)
 				{
-					giveItems(qs.getPlayer(), GRANITE_WHETSTONE, 7);
-					if (getQuestItemsCount(qs.getPlayer(), GRANITE_WHETSTONE) == 70)
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
-					}
-					else
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, GRANITE_WHETSTONE, 7, 70, 1.0, true);
 				}
 				break;
 			}
@@ -331,15 +324,7 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 2, npc);
 				if (qs != null)
 				{
-					giveItems(qs.getPlayer(), BRAIDED_YARN, 10);
-					if (getQuestItemsCount(qs.getPlayer(), BRAIDED_YARN) == 70)
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
-					}
-					else
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, BRAIDED_YARN, 10, 70, 1.0, true);
 				}
 				break;
 			}
@@ -349,15 +334,7 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 2, npc);
 				if (qs != null)
 				{
-					giveItems(qs.getPlayer(), GRAY_BONE_POWDER, 5);
-					if (getQuestItemsCount(qs.getPlayer(), GRAY_BONE_POWDER) == 70)
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
-					}
-					else
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, GRAY_BONE_POWDER, 5, 70, 1.0, true);
 				}
 				break;
 			}
@@ -366,15 +343,7 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 2, npc);
 				if (qs != null)
 				{
-					giveItems(qs.getPlayer(), RED_PIGMENT, 7);
-					if (getQuestItemsCount(qs.getPlayer(), RED_PIGMENT) == 70)
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
-					}
-					else
-					{
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, RED_PIGMENT, 7, 70, 1.0, true);
 				}
 				break;
 			}
@@ -387,16 +356,9 @@ public class Q00216_TrialOfTheGuildsman extends Quest
 				final QuestState qs = getRandomPartyMemberState(killer, -1, 2, npc);
 				if (qs != null)
 				{
-					if (getQuestItemsCount(qs.getPlayer(), DUNINGS_KEY) >= 29)
+					if (giveItemWithChance(qs.getPlayer(), npc, DUNINGS_KEY, 1, 30, 1.0, true) && (getQuestItemsCount(qs.getPlayer(), DUNINGS_KEY) >= 30))
 					{
-						giveItems(qs.getPlayer(), DUNINGS_KEY, 1);
 						takeItems(qs.getPlayer(), DUNINGS_INSTRUCTIONS, 1);
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_MIDDLE);
-					}
-					else
-					{
-						giveItems(qs.getPlayer(), DUNINGS_KEY, 1);
-						playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
 					}
 				}
 				break;
