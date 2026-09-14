@@ -1,8 +1,9 @@
 List of modified quests:
-Affected by QI drop chance multiplier (* no changes):
+Affected by QI drop chance multiplier (* no changes needed):
 Q00038_DragonFangs
 Q00039_RedEyeInvaders
 Q00216_TrialOfTheGuildsman
+Q00221_TestimotyOfProsperity
 Q00293_TheHiddenVeins
 Q00325_GrimCollector
 Q00351_BlackSwan

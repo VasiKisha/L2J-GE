@@ -334,17 +334,18 @@ public class Q00221_TestimonyOfProsperity extends Quest
 				case MANDRAGORA_BLOSSOM:
 				case MANDRAGORA_SPROUT2:
 				{
-					if (hasQuestItems(killer, RING_OF_TESTIMONY_1ST, BRIGHTS_LIST) && !hasQuestItems(killer, EMILYS_RECIPE) && (getQuestItemsCount(killer, MANDRAGORA_PETAL) < 20))
+					if (hasQuestItems(killer, RING_OF_TESTIMONY_1ST, BRIGHTS_LIST) && !hasQuestItems(killer, EMILYS_RECIPE))
 					{
-						giveItems(killer, MANDRAGORA_PETAL, 1);
-						if (getQuestItemsCount(killer, MANDRAGORA_PETAL) == 20)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						// parametry: player, npc, itemId, amountToGive, limit, dropChance (1.0 = 100%), playSound
+						giveItemWithChance(killer, npc, MANDRAGORA_PETAL, 1, 20, 1.0, true);
+					}
+					break;
+				}
+				case GIANT_CRIMSON_ANT:
+				{
+					if (hasQuestItems(killer, RING_OF_TESTIMONY_1ST, BRIGHTS_LIST) && !hasQuestItems(killer, EMILYS_RECIPE))
+					{
+						giveItemWithChance(killer, npc, CRIMSON_MOSS, 1, 10, 1.0, true);
 					}
 					break;
 				}
@@ -353,76 +354,43 @@ public class Q00221_TestimonyOfProsperity extends Quest
 				case MARSH_STAKATO_SOLDIER:
 				case MARSH_STAKATO_DRONE:
 				{
-					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE) && (getQuestItemsCount(killer, STAKATO_SHELL) < 20))
+					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE))
 					{
-						giveItems(killer, STAKATO_SHELL, 1);
-						if (getQuestItemsCount(killer, STAKATO_SHELL) == 20)
+						// Pokud giveItemWithChance vrátí true, znamená to, že byl dosažen přesný limit (20 ks)
+						if (giveItemWithChance(killer, npc, STAKATO_SHELL, 1, 20, 1.0, true))
 						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 							if ((getQuestItemsCount(killer, TOAD_LORD_SAC) >= 10) && (getQuestItemsCount(killer, MARSH_SPIDER_THORN) >= 10))
 							{
 								qs.setCond(8);
 							}
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
-				case GIANT_CRIMSON_ANT:
-				{
-					if (hasQuestItems(killer, RING_OF_TESTIMONY_1ST, BRIGHTS_LIST) && !hasQuestItems(killer, EMILYS_RECIPE) && (getQuestItemsCount(killer, CRIMSON_MOSS) < 10))
-					{
-						giveItems(killer, CRIMSON_MOSS, 1);
-						if (getQuestItemsCount(killer, CRIMSON_MOSS) == 10)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
 				}
 				case TOAD_LORD:
 				{
-					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE) && (getQuestItemsCount(killer, TOAD_LORD_SAC) < 10))
+					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE))
 					{
-						giveItems(killer, TOAD_LORD_SAC, 1);
-						if (getQuestItemsCount(killer, TOAD_LORD_SAC) == 10)
+						if (giveItemWithChance(killer, npc, TOAD_LORD_SAC, 1, 10, 1.0, true))
 						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 							if ((getQuestItemsCount(killer, STAKATO_SHELL) >= 20) && (getQuestItemsCount(killer, MARSH_SPIDER_THORN) >= 10))
 							{
 								qs.setCond(8);
 							}
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
 				}
 				case MARSH_SPIDER:
 				{
-					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE) && (getQuestItemsCount(killer, MARSH_SPIDER_THORN) < 10))
+					if (hasQuestItems(killer, RING_OF_TESTIMONY_2ND, NIKOLAS_LIST) && !hasAtLeastOneQuestItem(killer, CLAY_DOUGH, PATTERN_OF_KEYHOLE))
 					{
-						giveItems(killer, MARSH_SPIDER_THORN, 1);
-						if (getQuestItemsCount(killer, MARSH_SPIDER_THORN) == 10)
+						if (giveItemWithChance(killer, npc, MARSH_SPIDER_THORN, 1, 10, 1.0, true))
 						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 							if ((getQuestItemsCount(killer, STAKATO_SHELL) >= 20) && (getQuestItemsCount(killer, TOAD_LORD_SAC) >= 10))
 							{
 								qs.setCond(8);
 							}
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
