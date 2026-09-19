@@ -205,6 +205,12 @@ public class RequestEnchantItem extends ClientPacket
 						item.setEnchantLevel(item.getEnchantLevel() + 1);
 						iu.addModifiedItem(item);
 						item.updateDatabase();
+						
+						if (item.isEquipped())
+						{
+							// The client keeps the old enchant on an equipped item, so the full list is sent as well.
+							player.sendItemList(false);
+						}
 					}
 					
 					player.sendPacket(new EnchantResult(0, 0, 0));
@@ -314,10 +320,15 @@ public class RequestEnchantItem extends ClientPacket
 								player.sendPacket(sm);
 							}
 							
+							// Sent on its own, a removal of the same item would replace the unequip and leave it shown as equipped.
+							final InventoryUpdate unequipUpdate = new InventoryUpdate();
 							for (Item itm : player.getInventory().unEquipItemInSlotAndRecord(item.getLocationSlot()))
 							{
-								iu.addModifiedItem(itm);
+								unequipUpdate.addModifiedItem(itm);
 							}
+							
+							player.flushInventoryUpdate();
+							player.sendPacket(unequipUpdate);
 						}
 						
 						if (scrollTemplate.isBlessed())
@@ -452,7 +463,9 @@ public class RequestEnchantItem extends ClientPacket
 				}
 			}
 			
-			player.sendInventoryUpdate(iu);
+			// Sent directly, a delayed update can leave the equipped item shown with its old enchant.
+			player.flushInventoryUpdate();
+			player.sendPacket(iu);
 			player.broadcastUserInfo();
 			player.setActiveEnchantItemId(Player.ID_NONE);
 		}

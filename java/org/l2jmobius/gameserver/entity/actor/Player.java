@@ -3354,15 +3354,24 @@ public class Player extends Playable
 		
 		if (count > 0)
 		{
-			if (!_inventory.reduceAdena(process, count, this, reference))
+			// The destroyed item is kept, spending the whole stack clears the inventory adena instance.
+			final Item adenaItem = _inventory.destroyItemByItemId(process, Inventory.ADENA_ID, count, this, reference);
+			if (adenaItem == null)
 			{
 				return false;
 			}
 			
 			// Send update packet.
-			final Item adenaItem = _inventory.getAdenaInstance();
 			final InventoryUpdate iu = new InventoryUpdate();
-			iu.addItem(adenaItem);
+			if (adenaItem.getCount() > 0)
+			{
+				iu.addModifiedItem(adenaItem);
+			}
+			else
+			{
+				iu.addRemovedItem(adenaItem);
+			}
+			
 			sendInventoryUpdate(iu);
 			
 			if (sendMessage)
@@ -3700,6 +3709,7 @@ public class Player extends Playable
 	 */
 	public boolean destroyItem(ItemProcessType process, Item item, long count, WorldObject reference, boolean sendMessage)
 	{
+		final boolean wasEquipped = item.isEquipped();
 		final Item destoyedItem = _inventory.destroyItem(process, item, count, this, reference);
 		if (destoyedItem == null)
 		{
@@ -3715,6 +3725,12 @@ public class Player extends Playable
 		final InventoryUpdate playerIU = new InventoryUpdate();
 		playerIU.addItem(destoyedItem);
 		sendInventoryUpdate(playerIU);
+		
+		if (wasEquipped && (destoyedItem.getCount() == 0))
+		{
+			// The client leaves the item in the paperdoll when the last one is used up, so the full list is sent as well.
+			sendItemList(false);
+		}
 		
 		// Update current load as well.
 		final StatusUpdate su = new StatusUpdate(this);
@@ -9087,6 +9103,22 @@ public class Player extends Playable
 			return false;
 		}
 		
+		// Pumping and reeling are refused here, so that no reuse delay is applied when there is no fish to fight.
+		if ((_fishCombat == null) && skill.hasEffectType(EffectType.FISHING))
+		{
+			if (skill.getId() == CommonSkill.PUMPING.getId())
+			{
+				sendPacket(SystemMessageId.YOU_MAY_ONLY_USE_THE_PUMPING_SKILL_WHILE_YOU_ARE_FISHING);
+			}
+			else
+			{
+				sendPacket(SystemMessageId.YOU_MAY_ONLY_USE_THE_REELING_SKILL_WHILE_YOU_ARE_FISHING);
+			}
+			
+			sendPacket(ActionFailed.STATIC_PACKET);
+			return false;
+		}
+		
 		if (_observerMode)
 		{
 			sendPacket(SystemMessageId.OBSERVERS_CANNOT_PARTICIPATE);
@@ -12276,7 +12308,8 @@ public class Player extends Playable
 		_fish = fish.get(Rnd.get(fish.size())).clone();
 		fish.clear();
 		sendPacket(SystemMessageId.YOU_CAST_YOUR_LINE_AND_START_TO_FISH);
-		if (!GameTimeTaskManager.getInstance().isNight() && _lure.isNightLure())
+		// Night lures only catch at night, ordinary lures only during the day.
+		if (GameTimeTaskManager.getInstance().isNight() != _lure.isNightLure())
 		{
 			_fish.setFishGroup(-1);
 		}
@@ -12650,7 +12683,8 @@ public class Player extends Playable
 	
 	public void startFishCombat(boolean isNoob, boolean isUpperGrade)
 	{
-		_fishCombat = new Fishing(this, _fish, isNoob, isUpperGrade, _lure.getId());
+		// Every night lure fights like a night catch, the fish turns deceptive and reverses reeling and pumping.
+		_fishCombat = new Fishing(this, _fish, isNoob, isUpperGrade || _lure.isNightLure(), _lure.getId());
 	}
 	
 	public void endFishing(boolean win)
@@ -15050,6 +15084,20 @@ public class Player extends Playable
 		{
 			sendPacket(_inventoryUpdate);
 		}, 100);
+	}
+	
+	/**
+	 * Sends the pending inventory update now instead of waiting for the scheduled task.
+	 */
+	public void flushInventoryUpdate()
+	{
+		if (_inventoryUpdateTask != null)
+		{
+			_inventoryUpdateTask.cancel(false);
+			_inventoryUpdateTask = null;
+		}
+		
+		sendPacket(_inventoryUpdate);
 	}
 	
 	public void sendItemList(boolean open)
