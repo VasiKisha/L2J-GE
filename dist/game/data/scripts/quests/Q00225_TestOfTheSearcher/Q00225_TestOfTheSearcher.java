@@ -232,24 +232,28 @@ public class Q00225_TestOfTheSearcher extends Quest
 			{
 				case HANGMAN_TREE:
 				{
-					if (hasQuestItems(killer, JAXS_DIARY) && !hasQuestItems(killer, MAKELS_MAP) && (getQuestItemsCount(killer, TORN_MAP_PIECE_2ND) < 4))
+					if (hasQuestItems(killer, JAXS_DIARY) && !hasQuestItems(killer, MAKELS_MAP))
 					{
-						if (getQuestItemsCount(killer, TORN_MAP_PIECE_2ND) < 3)
+						final long currentPieces = getQuestItemsCount(killer, TORN_MAP_PIECE_2ND);
+						if (currentPieces < 3)
 						{
-							if (getRandom(100) < 50)
-							{
-								giveItems(killer, TORN_MAP_PIECE_2ND, 1);
-								playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-							}
+							// Šance 50 % (0.5) na získání TORN_MAP_PIECE_2ND (limit 3 ks)
+							giveItemWithChance(killer, npc, TORN_MAP_PIECE_2ND, 1, 3, 0.5, true);
 						}
-						else if (getRandom(100) < 50)
+						else
 						{
-							takeItems(killer, TORN_MAP_PIECE_2ND, -1);
-							giveItems(killer, MAKELS_MAP, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (getQuestItemsCount(killer, SOLTS_MAP) >= 1)
+							// Poslední krok: 50% šance na přeměnu 3 ks TORN_MAP_PIECE_2ND na MAKELS_MAP
+							if (giveItemWithChance(killer, npc, MAKELS_MAP, 1, 1, 0.5, false))
 							{
-								qs.setCond(15);
+								takeItems(killer, TORN_MAP_PIECE_2ND, -1);
+								if (getQuestItemsCount(killer, SOLTS_MAP) >= 1)
+								{
+									qs.setCond(15, true);
+								}
+								else
+								{
+									playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+								}
 							}
 						}
 					}
@@ -257,21 +261,28 @@ public class Q00225_TestOfTheSearcher extends Quest
 				}
 				case ROAD_SCAVENGER:
 				{
-					if (hasQuestItems(killer, JAXS_DIARY) && !hasQuestItems(killer, SOLTS_MAP) && (getQuestItemsCount(killer, TORN_MAP_PIECE_1ST) < 4))
+					if (hasQuestItems(killer, JAXS_DIARY) && !hasQuestItems(killer, SOLTS_MAP))
 					{
-						if (getQuestItemsCount(killer, TORN_MAP_PIECE_1ST) < 3)
+						final long currentPieces = getQuestItemsCount(killer, TORN_MAP_PIECE_1ST);
+						if (currentPieces < 3)
 						{
-							giveItems(killer, TORN_MAP_PIECE_1ST, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							// 100% šance (1.0) s limitem 3 ks
+							giveItemWithChance(killer, npc, TORN_MAP_PIECE_1ST, 1, 3, 1.0, true);
 						}
 						else
 						{
-							takeItems(killer, TORN_MAP_PIECE_1ST, -1);
-							giveItems(killer, SOLTS_MAP, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (getQuestItemsCount(killer, MAKELS_MAP) >= 1)
+							// Poslední krok: 100% šance na přeměnu na SOLTS_MAP
+							if (giveItemWithChance(killer, npc, SOLTS_MAP, 1, 1, 1.0, false))
 							{
-								qs.setCond(15);
+								takeItems(killer, TORN_MAP_PIECE_1ST, -1);
+								if (getQuestItemsCount(killer, MAKELS_MAP) >= 1)
+								{
+									qs.setCond(15, true);
+								}
+								else
+								{
+									playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+								}
 							}
 						}
 					}
@@ -279,32 +290,24 @@ public class Q00225_TestOfTheSearcher extends Quest
 				}
 				case GIANT_FUNGUS:
 				{
-					if (hasQuestItems(killer, TYRAS_CONTRACT) && (getQuestItemsCount(killer, RED_SPORE_DUST) < 10))
+					if (hasQuestItems(killer, TYRAS_CONTRACT))
 					{
-						giveItems(killer, RED_SPORE_DUST, 1);
-						if (getQuestItemsCount(killer, RED_SPORE_DUST) >= 10)
+						// 100% šance (1.0) na RED_SPORE_DUST s limitem 10 ks
+						if (giveItemWithChance(killer, npc, RED_SPORE_DUST, 1, 10, 1.0, true) && (getQuestItemsCount(killer, RED_SPORE_DUST) >= 10))
 						{
 							qs.setCond(11, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
 				}
 				case DELU_LIZARDMAN_SHAMAN:
 				{
-					if (hasQuestItems(killer, LEIRYNNS_1ST_ORDER) && (getQuestItemsCount(killer, DELU_TOTEM) < 10))
+					if (hasQuestItems(killer, LEIRYNNS_1ST_ORDER))
 					{
-						giveItems(killer, DELU_TOTEM, 1);
-						if (getQuestItemsCount(killer, RED_SPORE_DUST) >= 10)
+						// 100% šance (1.0) na DELU_TOTEM s limitem 10 ks
+						if (giveItemWithChance(killer, npc, DELU_TOTEM, 1, 10, 1.0, true) && (getQuestItemsCount(killer, DELU_TOTEM) >= 10))
 						{
 							qs.setCond(4, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
