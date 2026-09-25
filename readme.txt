@@ -2,7 +2,9 @@ List of modified quests:
 Affected by QI drop chance multiplier (* no changes needed):
 Q00038_DragonFangs
 Q00039_RedEyeInvaders
+Q00215_TrialOfThePilgrim*
 Q00216_TrialOfTheGuildsman
+Q00217_TestimotyOfTrust
 Q00221_TestimotyOfProsperity
 Q00225_TestOfTheSearcher
 Q00293_TheHiddenVeins

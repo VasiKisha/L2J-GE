@@ -277,163 +277,143 @@ public class Q00217_TestimonyOfTrust extends Quest
 					}
 					break;
 				}
+				
+				// --- CLAYTON QUEST ITEMS (Mravenci) ---
 				case ANT_RECRUIT:
 				case ANT_GUARD:
-				{
-					if (qs.isMemoState(6) && (getQuestItemsCount(killer, GIANT_APHID) < 5) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, HONEY_DEW))
-					{
-						if (getQuestItemsCount(killer, GIANT_APHID) >= 4)
-						{
-							giveItems(killer, HONEY_DEW, 1);
-							takeItems(killer, GIANT_APHID, -1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (hasQuestItems(killer, BASILISK_PLASMA, STAKATO_ICHOR))
-							{
-								qs.setCond(7);
-							}
-						}
-						else
-						{
-							giveItems(killer, GIANT_APHID, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
 				case ANT_PATROL:
 				case ANT_SOLDIER:
 				case ANT_WARRIOR_CAPTAIN:
 				{
-					if (qs.isMemoState(6) && (getQuestItemsCount(killer, GIANT_APHID) < 10) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, HONEY_DEW))
+					if (qs.isMemoState(6) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, HONEY_DEW))
 					{
-						if (getQuestItemsCount(killer, GIANT_APHID) >= 4)
+						// Použití nového dropu pro připočtení GIANT_APHID do limitu 5 ks se 100% šancí (1.0)
+						if (giveItemWithChance(killer, npc, GIANT_APHID, 1, 5, 1.0, false))
 						{
-							giveItems(killer, HONEY_DEW, 1);
-							takeItems(killer, GIANT_APHID, -1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (hasQuestItems(killer, BASILISK_PLASMA, STAKATO_ICHOR))
+							if (getQuestItemsCount(killer, GIANT_APHID) >= 5)
 							{
-								qs.setCond(7);
+								takeItems(killer, GIANT_APHID, -1);
+								giveItems(killer, HONEY_DEW, 1);
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+								if (hasQuestItems(killer, BASILISK_PLASMA, STAKATO_ICHOR))
+								{
+									qs.setCond(7);
+								}
 							}
-						}
-						else
-						{
-							giveItems(killer, GIANT_APHID, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							else
+							{
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							}
 						}
 					}
 					break;
 				}
+				
+				// --- CLAYTON QUEST ITEMS (Stakato) ---
 				case MARSH_STAKATO:
 				case MARSH_STAKATO_WORKER:
-				{
-					if (qs.isMemoState(6) && (getQuestItemsCount(killer, STAKATOS_FLUIDS) < 10) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, STAKATO_ICHOR))
-					{
-						if (getQuestItemsCount(killer, STAKATOS_FLUIDS) >= 4)
-						{
-							giveItems(killer, STAKATO_ICHOR, 1);
-							takeItems(killer, STAKATOS_FLUIDS, -1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (hasQuestItems(killer, BASILISK_PLASMA, HONEY_DEW))
-							{
-								qs.setCond(7);
-							}
-						}
-						else
-						{
-							giveItems(killer, STAKATOS_FLUIDS, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
 				case MARSH_STAKATO_SOLDIER:
 				case MARSH_STAKATO_DRONE:
 				{
-					if (qs.isMemoState(6) && (getQuestItemsCount(killer, STAKATOS_FLUIDS) < 5) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, STAKATO_ICHOR))
+					if (qs.isMemoState(6) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, STAKATO_ICHOR))
 					{
-						if (getQuestItemsCount(killer, STAKATOS_FLUIDS) >= 4)
+						if (giveItemWithChance(killer, npc, STAKATOS_FLUIDS, 1, 5, 1.0, false))
 						{
-							giveItems(killer, STAKATO_ICHOR, 1);
-							takeItems(killer, STAKATOS_FLUIDS, -1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (hasQuestItems(killer, BASILISK_PLASMA, HONEY_DEW))
+							if (getQuestItemsCount(killer, STAKATOS_FLUIDS) >= 5)
 							{
-								qs.setCond(7);
+								takeItems(killer, STAKATOS_FLUIDS, -1);
+								giveItems(killer, STAKATO_ICHOR, 1);
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+								if (hasQuestItems(killer, BASILISK_PLASMA, HONEY_DEW))
+								{
+									qs.setCond(7);
+								}
 							}
-						}
-						else
-						{
-							giveItems(killer, STAKATOS_FLUIDS, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							else
+							{
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							}
 						}
 					}
 					break;
 				}
+				
+				// --- CLAYTON QUEST ITEMS (Basilisci) ---
+				case GUARDIAN_BASILISK:
+				{
+					if (qs.isMemoState(6) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, BASILISK_PLASMA))
+					{
+						if (giveItemWithChance(killer, npc, BLOOD_OF_GUARDIAN_BASILISK, 1, 5, 1.0, false))
+						{
+							if (getQuestItemsCount(killer, BLOOD_OF_GUARDIAN_BASILISK) >= 5)
+							{
+								takeItems(killer, BLOOD_OF_GUARDIAN_BASILISK, -1);
+								giveItems(killer, BASILISK_PLASMA, 1);
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+								if (hasQuestItems(killer, STAKATO_ICHOR, HONEY_DEW))
+								{
+									qs.setCond(7);
+								}
+							}
+							else
+							{
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							}
+						}
+					}
+					break;
+				}
+				
+				// --- PORTA ---
 				case PORTA:
 				{
 					if (qs.isMemoState(16) && !hasQuestItems(killer, HEART_OF_PORTA))
 					{
-						giveItems(killer, HEART_OF_PORTA, 1);
-						if (hasQuestItems(killer, HEART_OF_PORTA))
+						if (giveItemWithChance(killer, npc, HEART_OF_PORTA, 1, 1, 1.0, true))
 						{
 							qs.setCond(20, true);
 						}
 					}
 					break;
 				}
-				case GUARDIAN_BASILISK:
-				{
-					if (qs.isMemoState(6) && (getQuestItemsCount(killer, BLOOD_OF_GUARDIAN_BASILISK) < 10) && hasQuestItems(killer, ORDER_OF_CLAYTON) && !hasQuestItems(killer, BASILISK_PLASMA))
-					{
-						if (getQuestItemsCount(killer, BLOOD_OF_GUARDIAN_BASILISK) >= 4)
-						{
-							giveItems(killer, BASILISK_PLASMA, 1);
-							takeItems(killer, BLOOD_OF_GUARDIAN_BASILISK, -1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-							if (hasQuestItems(killer, STAKATO_ICHOR, HONEY_DEW))
-							{
-								qs.setCond(7);
-							}
-						}
-						else
-						{
-							giveItems(killer, BLOOD_OF_GUARDIAN_BASILISK, 1);
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
-					}
-					break;
-				}
+				
+				// --- WINDSUS (Paraziti) ---
 				case WINDSUS:
 				{
-					if (qs.isMemoState(11) && (getQuestItemsCount(killer, PARASITE_OF_LOTA) < 10))
+					if (qs.isMemoState(11))
 					{
-						giveItems(killer, PARASITE_OF_LOTA, 2);
-						if (getQuestItemsCount(killer, PARASITE_OF_LOTA) == 10)
+						// Dáváme základní 2 ks do limitu 10 ks se 100% šancí (1.0)
+						if (giveItemWithChance(killer, npc, PARASITE_OF_LOTA, 2, 10, 1.0, false))
 						{
-							qs.setMemoState(12);
-							qs.setCond(15, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							if (getQuestItemsCount(killer, PARASITE_OF_LOTA) >= 10)
+							{
+								qs.setMemoState(12);
+								qs.setCond(15, true);
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+							}
+							else
+							{
+								playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							}
 						}
 					}
 					break;
 				}
+				
+				// --- QUEST BOSSOVÉ ---
 				case LUELL_OF_ZEPHYR_WINDS:
 				{
 					if (qs.isMemoState(2) && !hasQuestItems(killer, BREATH_OF_WINDS))
 					{
+						giveItemWithChance(killer, npc, BREATH_OF_WINDS, 1, 1, 1.0, false);
 						if (hasQuestItems(killer, SEED_OF_VERDURE))
 						{
-							giveItems(killer, BREATH_OF_WINDS, 1);
 							qs.setMemoState(3);
 							qs.setCond(3, true);
+							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							giveItems(killer, BREATH_OF_WINDS, 1);
 							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
@@ -443,15 +423,15 @@ public class Q00217_TestimonyOfTrust extends Quest
 				{
 					if (qs.isMemoState(2) && !hasQuestItems(killer, SEED_OF_VERDURE))
 					{
+						giveItemWithChance(killer, npc, SEED_OF_VERDURE, 1, 1, 1.0, false);
 						if (hasQuestItems(killer, BREATH_OF_WINDS))
 						{
-							giveItems(killer, SEED_OF_VERDURE, 1);
 							qs.setMemoState(3);
+							qs.setCond(3, true);
 							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 						}
 						else
 						{
-							giveItems(killer, SEED_OF_VERDURE, 1);
 							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
