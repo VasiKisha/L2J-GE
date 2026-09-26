@@ -184,58 +184,33 @@ public class Q00231_TestOfTheMaestro extends Quest
 			{
 				case GIANT_MIST_LEECH:
 				{
-					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE) && (getQuestItemsCount(killer, BLOOD_OF_LEECH) < 10))
+					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE))
 					{
-						giveItems(killer, BLOOD_OF_LEECH, 1);
-						if (getQuestItemsCount(killer, BLOOD_OF_LEECH) >= 10)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, BLOOD_OF_LEECH, 1, 10, 1.0, true);
 					}
 					break;
 				}
 				case STINGER_WASP:
 				{
-					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE) && (getQuestItemsCount(killer, STINGER_WASP_NEEDLE) < 10))
+					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE))
 					{
-						giveItems(killer, STINGER_WASP_NEEDLE, 1);
-						if (getQuestItemsCount(killer, STINGER_WASP_NEEDLE) >= 10)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, STINGER_WASP_NEEDLE, 1, 10, 1.0, true);
 					}
 					break;
 				}
 				case MARSH_SPIDER:
 				{
-					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE) && (getQuestItemsCount(killer, MARSH_SPIDERS_WEB) < 10))
+					if (qs.isMemoState(4) && hasQuestItems(killer, INGREDIENTS_OF_ANTIDOTE))
 					{
-						giveItems(killer, MARSH_SPIDERS_WEB, 1);
-						if (getQuestItemsCount(killer, MARSH_SPIDERS_WEB) >= 10)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, MARSH_SPIDERS_WEB, 1, 10, 1.0, true);
 					}
 					break;
 				}
 				case EVIL_EYE_LORD:
 				{
-					if (qs.isMemoState(2) && hasQuestItems(killer, PAINT_OF_KAMURU) && !hasQuestItems(killer, NECKLACE_OF_KAMUTU))
+					if (qs.isMemoState(2) && hasQuestItems(killer, PAINT_OF_KAMURU))
 					{
-						giveItems(killer, NECKLACE_OF_KAMUTU, 1);
-						playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+						giveItemWithChance(killer, npc, NECKLACE_OF_KAMUTU, 1, 1, 1.0, true);
 					}
 					break;
 				}

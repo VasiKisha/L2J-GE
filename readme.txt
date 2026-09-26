@@ -8,6 +8,7 @@ Q00217_TestimotyOfTrust
 Q00221_TestimotyOfProsperity
 Q00225_TestOfTheSearcher
 Q00227_TestOfTheReformer*
+Q00231_TestOfTheMaestro
 Q00293_TheHiddenVeins
 Q00325_GrimCollector
 Q00351_BlackSwan
