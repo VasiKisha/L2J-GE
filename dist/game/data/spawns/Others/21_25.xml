@@ -12,6 +12,10 @@
 		<npc id="20099" x="46203" y="247705" z="-6361" heading="0" respawnDelay="100" /> <!-- Skeleton -->
 		<npc id="20099" x="46404" y="247705" z="-6361" heading="0" respawnDelay="100" /> <!-- Skeleton -->
 		<npc id="20099" x="46606" y="248061" z="-6361" heading="0" respawnDelay="100" /> <!-- Skeleton -->
+		<npc id="20022" x="46558" y="247875" z="-6361" heading="0" respawnDelay="100" /> <!-- Misery Skeleton -->
+		<npc id="20022" x="42910" y="247692" z="-6361" heading="0" respawnDelay="60" /> <!-- Misery Skeleton -->
+		<npc id="20022" x="41830" y="246137" z="-6361" heading="0" respawnDelay="60" /> <!-- Misery Skeleton -->
+		<npc id="20022" x="42845" y="245260" z="-6361" heading="0" respawnDelay="60" /> <!-- Misery Skeleton -->
 		<npc id="20100" x="41792" y="246646" z="-6461" heading="10992" respawnDelay="60" /> <!-- Skeleton Archer -->
 		<npc id="20100" x="42445" y="245582" z="-6462" heading="56984" respawnDelay="60" /> <!-- Skeleton Archer -->
 		<npc id="20100" x="42492" y="245216" z="-6462" heading="54994" respawnDelay="60" /> <!-- Skeleton Archer -->

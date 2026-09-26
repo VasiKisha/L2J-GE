@@ -204,6 +204,7 @@ public class Q00227_TestOfTheReformer extends Quest
 				{
 					final Npc pilgrim = addSpawn(OL_MAHUM_PILGRIM, -9282, -89975, -2331, 0, false, 0);
 					final Npc wolf = addSpawn(CRIMSON_WEREWOLF, -9382, -89852, -2333, 0, false, 0);
+					pilgrim.setAutoAttackable(true);
 					wolf.asAttackable().addDamageHate(pilgrim, 99999, 99999);
 					wolf.getAI().setIntentionAttack(pilgrim);
 				}
@@ -218,6 +219,7 @@ public class Q00227_TestOfTheReformer extends Quest
 				{
 					final Npc pilgrim = addSpawn(OL_MAHUM_PILGRIM, 125947, -180049, -1778, 0, false, 0);
 					final Npc lizard = addSpawn(KRUDEL_LIZARDMAN, 126019, -179983, -1781, 0, false, 0);
+					pilgrim.setAutoAttackable(true);
 					lizard.asAttackable().addDamageHate(pilgrim, 99999, 99999);
 					lizard.getAI().setIntentionAttack(pilgrim);
 				}
@@ -264,6 +266,10 @@ public class Q00227_TestOfTheReformer extends Quest
 					if (attacker.isPlayer())
 					{
 						npc.setScriptValue(attacker.getObjectId());
+						if (qs.isMemoState(11))
+						{
+							npc.doDie(attacker);
+						}
 					}
 					break;
 				}
