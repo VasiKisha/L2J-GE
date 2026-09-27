@@ -1128,9 +1128,8 @@ public class Q00336_CoinsOfMagic extends Quest
 			case HARIT_LIZARDM_MATRIARCH:
 			{
 				final QuestState qs = getRandomPlayerFromPartyCoin(killer, npc, 2);
-				if ((qs != null) && (getRandom(1000) < 63))
+				if ((qs != null) && giveItemWithChance(qs.getPlayer(), npc, Q_KALDIS_GOLD_DRAGON, 1, 0, 0.063, true))
 				{
-					giveItemRandomly(qs.getPlayer(), npc, Q_KALDIS_GOLD_DRAGON, 1, 0, 1, true);
 					qs.setCond(3);
 					qs.showQuestionMark(336);
 				}
@@ -1146,27 +1145,18 @@ public class Q00336_CoinsOfMagic extends Quest
 				case SHACKLE:
 				case SHACKLE_HOLD:
 				{
-					if (getRandom(1000) < 70)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.07, true);
 					break;
 				}
 				case HEADLESS_KNIGHT:
 				case TIMAK_ORC:
 				{
-					if (getRandom(1000) < 80)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.08, true);
 					break;
 				}
 				case HEADLESS_KNIGHT_HOLD:
 				{
-					if (getRandom(1000) < 85)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.085, true);
 					break;
 				}
 				case ROYAL_CAVE_SERVANT:
@@ -1178,10 +1168,7 @@ public class Q00336_CoinsOfMagic extends Quest
 				case ANTELOPE_B:
 				case H_MALRUK_SUCCUBUS_TUREN:
 				{
-					if (getRandom(1000) < 100)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.10, true);
 					break;
 				}
 				case BUFFALO:
@@ -1190,170 +1177,110 @@ public class Q00336_CoinsOfMagic extends Quest
 				case KUKABURO:
 				case KUKABURO_A:
 				{
-					if (getRandom(1000) < 110)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.11, true);
 					break;
 				}
 				case DOOM_SERVANT:
 				{
-					if (getRandom(1000) < 140)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.14, true);
 					break;
 				}
 				case DOOM_KNIGHT:
 				{
-					if (getRandom(1000) < 210)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_GOLD_WYVERN, 1, 0, 0.21, true);
 					break;
 				}
 				case VANOR_SILENOS_SHAMAN:
 				{
-					if (getRandom(1000) < 70)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.07, true);
 					break;
 				}
 				case BLOODY_GHOST:
 				case TARLK_BUGBEAR_BOSS:
 				case OEL_MAHUM:
 				{
-					if (getRandom(1000) < 80)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.08, true);
 					break;
 				}
 				case OEL_MAHUM_WARRIOR:
 				{
-					if (getRandom(1000) < 90)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.09, true);
 					break;
 				}
 				case HUNGRY_CORPSE:
 				{
-					if (getRandom(1000) < 100)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.10, true);
 					break;
 				}
 				case BYFOOT:
 				{
-					if (getRandom(1000) < 110)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.11, true);
 					break;
 				}
 				case BYFOOT_SIGEL:
 				{
-					if (getRandom(1000) < 120)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.12, true);
 					break;
 				}
 				case DARK_GUARD:
 				case BRILLIANT_CLAW:
 				case BRILLIANT_CLAW_1:
 				{
-					if (getRandom(1000) < 150)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.15, true);
 					break;
 				}
 				case OEL_MAHUM_WITCH_DOCTOR:
 				{
-					if (getRandom(1000) < 200)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.20, true);
 					break;
 				}
 				case BRILLIANT_ANGUISH:
 				case BRILLIANT_ANGUISH_1:
 				{
-					if (getRandom(1000) < 210)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_SILVER_UNICORN, 1, 0, 0.21, true);
 					break;
 				}
 				case LAKIN:
 				{
-					if (getRandom(1000) < 60)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.06, true);
 					break;
 				}
 				case HATAR_HANISHEE:
 				{
-					if (getRandom(1000) < 70)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.07, true);
 					break;
 				}
 				case PUNISHMENT_OF_UNDEAD:
 				{
-					if (getRandom(1000) < 80)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.08, true);
 					break;
 				}
 				case FLOAT_OF_GRAVE:
 				case BANDERSNATCH_A:
 				case BANDERSNATCH_B:
 				{
-					if (getRandom(1000) < 90)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.09, true);
 					break;
 				}
 				case BANDERSNATCH:
 				{
-					if (getRandom(1000) < 100)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.10, true);
 					break;
 				}
 				case NIHIL_INVADER:
 				{
-					if (getRandom(1000) < 110)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.11, true);
 					break;
 				}
 				case TIMAK_ORC_SHAMAN:
 				{
-					if (getRandom(1000) < 130)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.13, true);
 					break;
 				}
 				case TIMAK_ORC_ARCHER:
 				case TIMAK_ORC_SOLDIER:
 				{
-					if (getRandom(1000) < 140)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.14, true);
 					break;
 				}
 				case DOOM_ARCHER:
@@ -1361,10 +1288,7 @@ public class Q00336_CoinsOfMagic extends Quest
 				case BRILLIANT_VENGEANCE:
 				case BRILLIANT_VENGEANCE_1:
 				{
-					if (getRandom(1000) < 160)
-					{
-						giveItemRandomly(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 1, true);
-					}
+					giveItemWithChance(qs.getPlayer(), npc, Q_BLOOD_MEDUSA, 1, 0, 0.16, true);
 					break;
 				}
 			}

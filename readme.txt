@@ -11,6 +11,7 @@ Q00227_TestOfTheReformer*
 Q00231_TestOfTheMaestro
 Q00293_TheHiddenVeins
 Q00325_GrimCollector
+Q00336_CoinsOfMagic
 Q00351_BlackSwan
 Q00364_JovialAccordion*
 Q00378_GrandFeast*
