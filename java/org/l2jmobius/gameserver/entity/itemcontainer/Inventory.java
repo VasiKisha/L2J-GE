@@ -54,6 +54,9 @@ import org.l2jmobius.gameserver.mechanics.events.EventType;
 import org.l2jmobius.gameserver.mechanics.events.holders.actor.player.OnPlayerItemUnequip;
 import org.l2jmobius.gameserver.mechanics.skill.Skill;
 import org.l2jmobius.gameserver.mechanics.skill.holders.SkillHolder;
+import org.l2jmobius.gameserver.mechanics.stats.functions.AbstractFunction;
+import org.l2jmobius.gameserver.mechanics.stats.functions.FuncAdd;
+import org.l2jmobius.gameserver.mechanics.stats.functions.FuncSet;
 import org.l2jmobius.gameserver.network.serverpackets.SkillCoolTime;
 
 /**
@@ -254,7 +257,32 @@ public abstract class Inventory extends ItemContainer
 		@Override
 		public void notifyEquiped(int slot, Item item, Inventory inventory)
 		{
-			inventory.getOwner().addStatFuncs(item.getStatFuncs(inventory.getOwner()));
+			final Creature owner = inventory.getOwner();
+			final List<AbstractFunction> functions = item.getStatFuncs(owner);
+			
+			if (owner.isPet() && item.isWeapon())
+			{
+				for (int i = 0; i < functions.size(); i++)
+				{
+					final AbstractFunction function = functions.get(i);
+					if (!(function instanceof FuncSet))
+					{
+						continue;
+					}
+					
+					switch (function.getStat())
+					{
+						case POWER_ATTACK:
+						case MAGIC_ATTACK:
+						{
+							functions.set(i, new FuncAdd(function.getStat(), function.getOrder(), item, function.getValue(), function.getApplyCond()));
+							break;
+						}
+					}
+				}
+			}
+			
+			owner.addStatFuncs(functions);
 		}
 	}
 	
