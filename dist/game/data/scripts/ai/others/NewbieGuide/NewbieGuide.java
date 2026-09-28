@@ -329,7 +329,7 @@ public final class NewbieGuide extends Script
 					case 4:
 					{
 						final Summon summon = talker.getSummon();
-						if ((summon != null) && !summon.isPet())
+						if (summon != null)
 						{
 							if ((talker.getLevel() < 6) || (talker.getLevel() > 75))
 							{
