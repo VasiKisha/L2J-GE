@@ -12,6 +12,7 @@ Q00231_TestOfTheMaestro
 Q00293_TheHiddenVeins
 Q00325_GrimCollector
 Q00336_CoinsOfMagic
+Q00338_AlligatorHunter
 Q00351_BlackSwan
 Q00354_ConquestOfTheAlligatorIsland
 Q00364_JovialAccordion*

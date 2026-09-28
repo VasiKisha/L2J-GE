@@ -19,7 +19,6 @@ package quests.Q00338_AlligatorHunter;
 import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.mechanics.script.State;
 
@@ -40,7 +39,7 @@ public class Q00338_AlligatorHunter extends Quest
 	
 	// Misc
 	private static final int MIN_LEVEL = 40;
-	private static final int SECOND_CHANCE = 19;
+	// private static final int SECOND_CHANCE = 19;
 	
 	public Q00338_AlligatorHunter()
 	{
@@ -109,13 +108,7 @@ public class Q00338_AlligatorHunter extends Quest
 		final QuestState qs = getQuestState(player, false);
 		if (qs != null)
 		{
-			giveItems(player, ALLIGATOR_LEATHER, 1);
-			if (getRandom(100) < SECOND_CHANCE)
-			{
-				giveItems(player, ALLIGATOR_LEATHER, 1);
-			}
-			
-			playSound(player, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+			giveItemWithChance(player, npc, ALLIGATOR_LEATHER, 1, 0, 1.19, true);
 		}
 	}
 	
