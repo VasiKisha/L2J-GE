@@ -13,8 +13,10 @@ Q00293_TheHiddenVeins
 Q00325_GrimCollector
 Q00336_CoinsOfMagic
 Q00351_BlackSwan
+Q00354_ConquestOfTheAlligatorIsland
 Q00364_JovialAccordion*
 Q00378_GrandFeast*
+Q00383_TreasureHunt*
 Q00385_YokeOfThePast
 Q00401_PathOfTheWarrior
 Q00405_PathOfTheCleric*

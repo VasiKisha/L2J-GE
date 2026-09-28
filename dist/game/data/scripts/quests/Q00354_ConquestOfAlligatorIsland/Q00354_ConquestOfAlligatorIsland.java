@@ -42,16 +42,15 @@ public class Q00354_ConquestOfAlligatorIsland extends Quest
 	private static final int MIN_LEVEL = 38;
 	
 	// Mobs
-	private static final Map<Integer, Double> MOB1 = new HashMap<>();
-	private static final Map<Integer, Integer> MOB2 = new HashMap<>();
+	private static final Map<Integer, Double> MOBS = new HashMap<>();
 	static
 	{
-		MOB1.put(20804, 0.84); // crokian_lad
-		MOB1.put(20805, 0.91); // dailaon_lad
-		MOB1.put(20806, 0.88); // crokian_lad_warrior
-		MOB1.put(20807, 0.92); // farhite_lad
-		MOB2.put(20808, 14); // nos_lad
-		MOB2.put(20991, 69); // tribe_of_swamp
+		MOBS.put(20804, 0.84); // crokian_lad
+		MOBS.put(20805, 0.91); // dailaon_lad
+		MOBS.put(20806, 0.88); // crokian_lad_warrior
+		MOBS.put(20807, 0.92); // farhite_lad
+		MOBS.put(20808, 1.14); // nos_lad
+		MOBS.put(20991, 1.69); // tribe_of_swamp
 	}
 	
 	public Q00354_ConquestOfAlligatorIsland()
@@ -59,8 +58,7 @@ public class Q00354_ConquestOfAlligatorIsland extends Quest
 		super(354, "Conquest of Alligator Island");
 		addStartNpc(KLUCK);
 		addTalkId(KLUCK);
-		addKillId(MOB1.keySet());
-		addKillId(MOB2.keySet());
+		addKillId(MOBS.keySet());
 		registerQuestItems(ALLIGATOR_TOOTH, MYSTERIOUS_MAP_PIECE);
 	}
 	
@@ -142,19 +140,15 @@ public class Q00354_ConquestOfAlligatorIsland extends Quest
 		final QuestState qs = getRandomPartyMemberState(player, -1, 3, npc);
 		if (qs != null)
 		{
-			final int npcId = npc.getId();
-			final Double mob1Chance = MOB1.get(npcId);
-			if (mob1Chance != null)
+			final Player partyMember = qs.getPlayer();
+			final Double dropChance = MOBS.get(npc.getId());
+			
+			if (dropChance != null)
 			{
-				giveItemRandomly(player, npc, ALLIGATOR_TOOTH, 1, 0, mob1Chance, true);
-			}
-			else
-			{
-				final int itemCount = ((getRandom(100) < MOB2.get(npcId)) ? 2 : 1);
-				giveItemRandomly(player, npc, ALLIGATOR_TOOTH, itemCount, 0, 1, true);
+				giveItemWithChance(partyMember, npc, ALLIGATOR_TOOTH, 1, 0, dropChance, true);
 			}
 			
-			giveItemRandomly(player, npc, MYSTERIOUS_MAP_PIECE, 1, 0, 0.1, false);
+			giveItemWithChance(partyMember, npc, MYSTERIOUS_MAP_PIECE, 1, 0, 0.1, false);
 		}
 	}
 	
