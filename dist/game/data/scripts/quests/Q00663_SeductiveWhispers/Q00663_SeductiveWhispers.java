@@ -26,7 +26,6 @@ import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.entity.item.holders.ItemHolder;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.mechanics.script.State;
 import org.l2jmobius.gameserver.util.LocationUtil;
@@ -97,6 +96,7 @@ public class Q00663_SeductiveWhispers extends Quest
 	private static final Map<Integer, Integer> MONSTERS = new HashMap<>();
 	static
 	{
+		MONSTERS.put(SPITEFUL_SOUL_LEADER, 1100);
 		MONSTERS.put(20674, 807);
 		MONSTERS.put(20678, 372);
 		MONSTERS.put(20954, 460);
@@ -757,22 +757,10 @@ public class Q00663_SeductiveWhispers extends Quest
 			final Player rewardedPlayer = players.get(getRandom(players.size()));
 			if (LocationUtil.checkIfInRange(PlayerConfig.ALT_PARTY_RANGE, npc, rewardedPlayer, false))
 			{
-				final int rnd = getRandom(1000);
-				if (npc.getId() == SPITEFUL_SOUL_LEADER)
+				final Integer chance = MONSTERS.get(npc.getId());
+				if (chance != null)
 				{
-					if (rnd <= SPITEFUL_SOUL_LEADER_CHANCE)
-					{
-						giveItems(rewardedPlayer, SPIRIT_BEAD, 2);
-					}
-					else
-					{
-						giveItems(rewardedPlayer, SPIRIT_BEAD, 1);
-					}
-				}
-				else if (rnd < MONSTERS.get(npc.getId()))
-				{
-					giveItems(rewardedPlayer, SPIRIT_BEAD, 1);
-					playSound(rewardedPlayer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+					giveItemWithChance(rewardedPlayer, npc, SPIRIT_BEAD, 1, 0, chance / 1000.0, true);
 				}
 			}
 		}
