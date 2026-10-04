@@ -701,12 +701,16 @@ public class Q00662_AGameOfCards extends Quest
 		}
 		
 		final Player player = players.get(getRandom(players.size()));
-		if ((player != null) && LocationUtil.checkIfInRange(PlayerConfig.ALT_PARTY_RANGE, npc, player, false) && (MONSTERS.get(npc.getId()) < getRandom(1000)))
+		if ((player != null) && LocationUtil.checkIfInRange(PlayerConfig.ALT_PARTY_RANGE, npc, player, false))
 		{
 			final QuestState qs = getQuestState(player, false);
 			if (qs != null)
 			{
-				giveItemRandomly(qs.getPlayer(), npc, RED_GEM, 1, 0, MONSTERS.get(npc.getId()), true);
+				final Integer dropChance = MONSTERS.get(npc.getId());
+				if (dropChance != null)
+				{
+					giveItemWithChance(player, npc, RED_GEM, 1, 0, dropChance / 1000.0, true);
+				}
 			}
 		}
 	}

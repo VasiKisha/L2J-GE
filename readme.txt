@@ -25,6 +25,7 @@ Q00417_PathOfTheScavenger
 Q00418_PathOfTheArtisan*
 Q00419_GetAPet
 Q00634_InSearchOfFragmentsOfDimension
+Q00662_AGameOfCards
 Q00663_SeductiveWhispers
 
 
