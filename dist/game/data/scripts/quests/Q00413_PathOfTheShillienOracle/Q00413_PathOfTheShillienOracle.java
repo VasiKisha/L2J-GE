@@ -21,7 +21,6 @@ import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.entity.actor.enums.player.PlayerClass;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.network.serverpackets.SocialAction;
 import org.l2jmobius.gameserver.util.LocationUtil;
@@ -173,14 +172,9 @@ public class Q00413_PathOfTheShillienOracle extends Quest
 				{
 					if (hasQuestItems(killer, PENITENTS_MARK) && (getQuestItemsCount(killer, ASHEN_BONES) < 10))
 					{
-						giveItems(killer, ASHEN_BONES, 1);
-						if (getQuestItemsCount(killer, ASHEN_BONES) == 10)
+						if (giveItemWithChance(killer, npc, ASHEN_BONES, 1, 10, 1.0, true))
 						{
 							qs.setCond(6, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
 						}
 					}
 					break;
@@ -189,15 +183,15 @@ public class Q00413_PathOfTheShillienOracle extends Quest
 				{
 					if (hasQuestItems(killer, BLANK_SHEET))
 					{
-						giveItems(killer, BLOODY_RUNE, 1);
-						takeItems(killer, BLANK_SHEET, 1);
-						if (!hasQuestItems(killer, BLANK_SHEET) && (getQuestItemsCount(killer, BLOODY_RUNE) == 5))
+						final long bloodyRuneBefore = getQuestItemsCount(killer, BLOODY_RUNE);
+						if (giveItemWithChance(killer, npc, BLOODY_RUNE, 1, 5, 1.0, true))
 						{
 							qs.setCond(3, true);
 						}
-						else
+						final long bloodyRuneGained = getQuestItemsCount(killer, BLOODY_RUNE) - bloodyRuneBefore;
+						if (bloodyRuneGained > 0)
 						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							takeItems(killer, BLANK_SHEET, bloodyRuneGained);
 						}
 					}
 					break;

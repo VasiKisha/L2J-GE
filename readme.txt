@@ -21,6 +21,7 @@ Q00383_TreasureHunt*
 Q00385_YokeOfThePast
 Q00401_PathOfTheWarrior
 Q00405_PathOfTheCleric*
+Q00413_PathOfTheShillienOracle
 Q00417_PathOfTheScavenger
 Q00418_PathOfTheArtisan*
 Q00419_GetAPet
