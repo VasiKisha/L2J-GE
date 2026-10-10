@@ -21,7 +21,6 @@ import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.entity.actor.enums.player.PlayerClass;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.network.serverpackets.SocialAction;
 import org.l2jmobius.gameserver.util.LocationUtil;
@@ -146,34 +145,33 @@ public class Q00404_PathOfTheHumanWizard extends Quest
 			{
 				case RED_BEAR:
 				{
-					if (hasQuestItems(killer, RUSTY_COIN) && !hasQuestItems(killer, RED_SOIL) && (getRandom(100) < 20))
+					if (hasQuestItems(killer, RUSTY_COIN) && !hasQuestItems(killer, RED_SOIL))
 					{
-						giveItems(killer, RED_SOIL, 1);
-						qs.setCond(12, true);
+						if (giveItemWithChance(killer, npc, RED_SOIL, 1, 1, 0.2, true))
+						{
+							qs.setCond(12, false);
+						}
 					}
 					break;
 				}
 				case RATMAN_WARRIOR:
 				{
-					if (hasQuestItems(killer, MAP_OF_LUSTER) && !hasQuestItems(killer, KEY_OF_FLAME) && (getRandom(100) < 80))
+					if (hasQuestItems(killer, MAP_OF_LUSTER) && !hasQuestItems(killer, KEY_OF_FLAME))
 					{
-						giveItems(killer, KEY_OF_FLAME, 1);
-						qs.setCond(3, true);
+						if (giveItemWithChance(killer, npc, KEY_OF_FLAME, 1, 1, 0.8, true))
+						{
+							qs.setCond(3, false);
+						}
 					}
 					break;
 				}
 				case WATER_SEER:
 				{
-					if (hasQuestItems(killer, RAMAS_DIARY) && (getQuestItemsCount(killer, SPARKLE_PEBBLE) < 2) && (getRandom(100) < 80))
+					if (hasQuestItems(killer, RAMAS_DIARY) && (getQuestItemsCount(killer, SPARKLE_PEBBLE) < 2))
 					{
-						giveItems(killer, SPARKLE_PEBBLE, 1);
-						if (getQuestItemsCount(killer, SPARKLE_PEBBLE) == 2)
+						if (giveItemWithChance(killer, npc, SPARKLE_PEBBLE, 1, 2, 0.8, true))
 						{
-							qs.setCond(9, true);
-						}
-						else
-						{
-							playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(9, false);
 						}
 					}
 					break;

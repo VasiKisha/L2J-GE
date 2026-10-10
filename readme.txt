@@ -20,6 +20,7 @@ Q00378_GrandFeast*
 Q00383_TreasureHunt*
 Q00385_YokeOfThePast
 Q00401_PathOfTheWarrior
+Q00404_PathOfTheHumanWizard
 Q00405_PathOfTheCleric*
 Q00413_PathOfTheShillienOracle
 Q00417_PathOfTheScavenger
