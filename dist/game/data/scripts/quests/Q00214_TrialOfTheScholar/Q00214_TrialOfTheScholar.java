@@ -424,14 +424,10 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, MIRIENS_2ND_SIGIL, GRAND_MAGISTER_SIGIL, JUREKS_LIST) && (getQuestItemsCount(killer, MONSTER_EYE_DESTROYER_SKIN) < 5))
 					{
-						giveItems(killer, MONSTER_EYE_DESTROYER_SKIN, 1);
+						giveItemWithChance(killer, npc, MONSTER_EYE_DESTROYER_SKIN, 1, 5, 1.0, true);
 						if ((getQuestItemsCount(killer, MONSTER_EYE_DESTROYER_SKIN) == 5) && (getQuestItemsCount(killer, SHAMANS_NECKLACE) >= 5) && (getQuestItemsCount(killer, SHACKLES_SCALP) >= 2))
 						{
-							qs.setCond(17, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(17, false);
 						}
 					}
 					break;
@@ -440,15 +436,7 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, TRIFFS_RING, POITANS_NOTES, CASIANS_LIST) && (getQuestItemsCount(killer, MEDUSAS_BLOOD) < 12))
 					{
-						giveItems(killer, MEDUSAS_BLOOD, 1);
-						if (getQuestItemsCount(killer, MEDUSAS_BLOOD) == 12)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, MEDUSAS_BLOOD, 1, 12, 1.0, true);
 					}
 					break;
 				}
@@ -456,14 +444,10 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, TRIFFS_RING, POITANS_NOTES, CASIANS_LIST) && (getQuestItemsCount(killer, GHOULS_SKIN) < 10))
 					{
-						giveItems(killer, GHOULS_SKIN, 1);
+						giveItemWithChance(killer, npc, GHOULS_SKIN, 1, 10, 1.0, true);
 						if (getQuestItemsCount(killer, GHOULS_SKIN) == 10)
 						{
-							qs.setCond(29, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(29, false);
 						}
 					}
 					break;
@@ -473,14 +457,10 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, MIRIENS_2ND_SIGIL, GRAND_MAGISTER_SIGIL, JUREKS_LIST) && (getQuestItemsCount(killer, SHACKLES_SCALP) < 2))
 					{
-						giveItems(killer, SHACKLES_SCALP, 1);
+						giveItemWithChance(killer, npc, SHACKLES_SCALP, 1, 2, 1.0, true);
 						if ((getQuestItemsCount(killer, MONSTER_EYE_DESTROYER_SKIN) >= 5) && (getQuestItemsCount(killer, SHAMANS_NECKLACE) >= 5) && (getQuestItemsCount(killer, SHACKLES_SCALP) == 2))
 						{
-							qs.setCond(17, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(17, false);
 						}
 					}
 					break;
@@ -489,14 +469,10 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, MIRIENS_2ND_SIGIL, GRAND_MAGISTER_SIGIL, JUREKS_LIST) && (getQuestItemsCount(killer, SHAMANS_NECKLACE) < 5))
 					{
-						giveItems(killer, SHAMANS_NECKLACE, 1);
+						giveItemWithChance(killer, npc, SHAMANS_NECKLACE, 1, 5, 1.0, true);
 						if ((getQuestItemsCount(killer, MONSTER_EYE_DESTROYER_SKIN) >= 5) && (getQuestItemsCount(killer, SHAMANS_NECKLACE) == 5) && (getQuestItemsCount(killer, SHACKLES_SCALP) >= 2))
 						{
-							qs.setCond(17, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(17, false);
 						}
 					}
 					break;
@@ -505,15 +481,7 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, TRIFFS_RING, POITANS_NOTES, CASIANS_LIST) && (getQuestItemsCount(killer, FETTERED_SOULS_ICHOR) < 5))
 					{
-						giveItems(killer, FETTERED_SOULS_ICHOR, 1);
-						if (getQuestItemsCount(killer, FETTERED_SOULS_ICHOR) >= 5)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, FETTERED_SOULS_ICHOR, 1, 5, 1.0, true);
 					}
 					break;
 				}
@@ -521,8 +489,7 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, MIRIENS_3RD_SIGIL, CRONOS_SIGIL, TRIFFS_RING) && !hasQuestItems(killer, SCRIPTURE_CHAPTER_3))
 					{
-						giveItems(killer, SCRIPTURE_CHAPTER_3, 1);
-						playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
+						giveItemWithChance(killer, npc, SCRIPTURE_CHAPTER_3, 1, 1, 1.0, true);
 					}
 					break;
 				}
@@ -530,15 +497,7 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, TRIFFS_RING, POITANS_NOTES, CASIANS_LIST) && (getQuestItemsCount(killer, ENCHANTED_GARGOYLES_NAIL) < 5))
 					{
-						giveItems(killer, ENCHANTED_GARGOYLES_NAIL, 1);
-						if (getQuestItemsCount(killer, ENCHANTED_GARGOYLES_NAIL) >= 5)
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_MIDDLE);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
-						}
+						giveItemWithChance(killer, npc, ENCHANTED_GARGOYLES_NAIL, 1, 5, 1.0, true);
 					}
 					break;
 				}
@@ -546,14 +505,10 @@ public class Q00214_TrialOfTheScholar extends Quest
 				{
 					if (hasQuestItems(killer, MIRIENS_1ST_SIGIL, HIGH_PRIESTS_SIGIL, CRERAS_PAINTING3) && (getQuestItemsCount(killer, BROWN_SCROLL_SCRAP) < 5))
 					{
-						giveItems(killer, BROWN_SCROLL_SCRAP, 1);
+						giveItemWithChance(killer, npc, BROWN_SCROLL_SCRAP, 1, 5, 1.0, true);
 						if (getQuestItemsCount(killer, BROWN_SCROLL_SCRAP) == 5)
 						{
-							qs.setCond(12, true);
-						}
-						else
-						{
-							playSound(killer, QuestSound.ITEMSOUND_QUEST_ITEMGET);
+							qs.setCond(12, false);
 						}
 					}
 					break;
