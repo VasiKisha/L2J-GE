@@ -22,7 +22,6 @@ import java.util.Map;
 import org.l2jmobius.gameserver.entity.actor.Npc;
 import org.l2jmobius.gameserver.entity.actor.Player;
 import org.l2jmobius.gameserver.mechanics.script.Quest;
-import org.l2jmobius.gameserver.mechanics.script.QuestSound;
 import org.l2jmobius.gameserver.mechanics.script.QuestState;
 import org.l2jmobius.gameserver.mechanics.script.State;
 
@@ -393,24 +392,14 @@ public class Q00426_QuestForFishingShot extends Quest
 		{
 			if (MOBS_SPECIAL.containsKey(npc.getId()))
 			{
-				if (getRandom(1000) <= MOBS_SPECIAL.get(npc.getId()).chance)
-				{
-					rewardItems(qs.getPlayer(), SWEET_FLUID, MOBS_SPECIAL.get(npc.getId()).reward + 1);
-				}
-				else
-				{
-					rewardItems(qs.getPlayer(), SWEET_FLUID, MOBS_SPECIAL.get(npc.getId()).reward);
-				}
-				
-				playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
+				final ChanceReward reward = MOBS_SPECIAL.get(npc.getId());
+				final int amount = reward.reward + ((getRandom(1000) <= reward.chance) ? 1 : 0);
+				giveItemWithChance(killer, npc, SWEET_FLUID, amount, 0, 1.0, true);
 			}
 			else
 			{
-				if (getRandom(1000) <= MOBS.get(npc.getId()).chance)
-				{
-					rewardItems(qs.getPlayer(), SWEET_FLUID, MOBS.get(npc.getId()).reward);
-					playSound(qs.getPlayer(), QuestSound.ITEMSOUND_QUEST_ITEMGET);
-				}
+				final ChanceReward reward = MOBS.get(npc.getId());
+				giveItemWithChance(killer, npc, SWEET_FLUID, reward.reward, 0, reward.chance / 1000.0, true);
 			}
 		}
 	}
