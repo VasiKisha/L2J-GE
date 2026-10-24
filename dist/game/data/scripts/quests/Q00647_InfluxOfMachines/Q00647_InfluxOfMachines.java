@@ -118,7 +118,7 @@ public class Q00647_InfluxOfMachines extends Quest
 			return;
 		}
 		
-		if (giveItemRandomly(partyMember, npc, DESTROYED_GOLEM_SHARD, 1, 500, 0.3, true))
+		if (giveItemWithChance(partyMember, npc, DESTROYED_GOLEM_SHARD, 1, 500, 0.3, true))
 		{
 			st.setCond(2);
 		}

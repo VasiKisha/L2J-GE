@@ -30,6 +30,7 @@ Q00418_PathOfTheArtisan*
 Q00419_GetAPet
 Q00426_QuestForFishingShot
 Q00634_InSearchOfFragmentsOfDimension
+Q00647_InfluxOfMachines
 Q00662_AGameOfCards
 Q00663_SeductiveWhispers
 
