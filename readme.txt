@@ -2,6 +2,7 @@ List of modified quests:
 Affected by QI drop chance multiplier (* no changes needed):
 Q00038_DragonFangs
 Q00039_RedEyeInvaders
+Q00115_TheOtherSideOfTruth*
 Q00214_TrialOfTheScholar
 Q00215_TrialOfThePilgrim*
 Q00216_TrialOfTheGuildsman
@@ -31,6 +32,7 @@ Q00419_GetAPet
 Q00426_QuestForFishingShot
 Q00634_InSearchOfFragmentsOfDimension
 Q00647_InfluxOfMachines
+Q00648_AnIceMerchantsDream
 Q00662_AGameOfCards
 Q00663_SeductiveWhispers
 

@@ -293,7 +293,7 @@ public class Q00648_AnIceMerchantsDream extends Quest
 			final DropInfo info = MONSTERS.get(npc.getId());
 			if (qs.getCond() >= 1)
 			{
-				giveItemRandomly(qs.getPlayer(), npc, SILVER_ICE_CRYSTAL, 1, 0, info.getFirstChance(), true);
+				giveItemWithChance(qs.getPlayer(), npc, SILVER_ICE_CRYSTAL, 1, 0, info.getFirstChance(), true);
 			}
 			
 			if (info.getSecondChance() > 0)
@@ -301,7 +301,7 @@ public class Q00648_AnIceMerchantsDream extends Quest
 				final QuestState qs2 = qs.getPlayer().getQuestState(Q00115_TheOtherSideOfTruth.class.getSimpleName());
 				if ((qs.getCond() >= 2) && (qs2 != null) && qs2.isCompleted())
 				{
-					giveItemRandomly(qs.getPlayer(), npc, SILVER_HEMOCYTE, 1, 0, info.getSecondChance(), true);
+					giveItemWithChance(qs.getPlayer(), npc, SILVER_HEMOCYTE, 1, 0, info.getSecondChance(), true);
 				}
 			}
 		}
