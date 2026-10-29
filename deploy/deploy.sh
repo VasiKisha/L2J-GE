@@ -11,7 +11,7 @@ DEPLOY_DIR="$BASE_DIR/L2J-GE"
 BUILD_ZIP="$BASE_DIR/build/L2J_Mobius_CT_2.4_Epilogue.zip"
 TMP_DIR="$BASE_DIR/build_tmp"
 GEODATA_BACKUP="$BASE_DIR/geodata_backup"
-JAVA_PATH="$BASE_DIR/jdk-25.0.4"
+JAVA_PATH="$BASE_DIR/jdk-27.0.1.0.3"
 GIT_REPO_URL="https://github.com/VasiKisha/L2J-GE.git"
 
 # Název Docker kontejnerů podle Portaineru
