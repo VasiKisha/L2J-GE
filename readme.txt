@@ -20,6 +20,7 @@ Q00351_BlackSwan
 Q00354_ConquestOfTheAlligatorIsland
 Q00364_JovialAccordion*
 Q00378_GrandFeast*
+Q00381_LetsBecomeARoyalMember
 Q00383_TreasureHunt*
 Q00385_YokeOfThePast
 Q00401_PathOfTheWarrior

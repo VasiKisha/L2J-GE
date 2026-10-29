@@ -188,7 +188,7 @@ public class Q00381_LetsBecomeARoyalMember extends Quest
 		{
 			if (npc.getId() == ANCIENT_GARGOYLE)
 			{
-				giveItemRandomly(killer, npc, KAILS_COIN, 1, 1, 0.05, true);
+				giveItemWithChance(killer, npc, KAILS_COIN, 1, 1, 0.05, true);
 			}
 			else if (qs.isMemoState(2) && !hasQuestItems(killer, FOUR_LEAF_COIN))
 			{
