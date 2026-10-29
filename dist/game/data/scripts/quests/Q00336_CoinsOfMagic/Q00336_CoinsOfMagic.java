@@ -1428,9 +1428,9 @@ public class Q00336_CoinsOfMagic extends Quest
 			}
 			case 31:
 			{
-				if (getQuestItemsCount(player, item2) >= (5 * mul))
+				if (getQuestItemsCount(player, item2) >= (10 * mul))
 				{
-					takeItems(player, item2, 5 * mul);
+					takeItems(player, item2, 10 * mul);
 					giveItems(player, reward2, 1 * mul);
 					playSound(player, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 					return npcId + "-07.html";
@@ -1439,9 +1439,9 @@ public class Q00336_CoinsOfMagic extends Quest
 			}
 			case 21:
 			{
-				if (getQuestItemsCount(player, item3) >= (5 * mul))
+				if (getQuestItemsCount(player, item3) >= (10 * mul))
 				{
-					takeItems(player, item3, 5 * mul);
+					takeItems(player, item3, 10 * mul);
 					giveItems(player, reward3, 1 * mul);
 					playSound(player, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 					return npcId + "-07.html";
@@ -1450,9 +1450,9 @@ public class Q00336_CoinsOfMagic extends Quest
 			}
 			case 11:
 			{
-				if (getQuestItemsCount(player, item4) >= (5 * mul))
+				if (getQuestItemsCount(player, item4) >= (10 * mul))
 				{
-					takeItems(player, item4, 5 * mul);
+					takeItems(player, item4, 10 * mul);
 					giveItems(player, reward4, 1 * mul);
 					playSound(player, QuestSound.ITEMSOUND_QUEST_MIDDLE);
 					return npcId + "-07.html";
