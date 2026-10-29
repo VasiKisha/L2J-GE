@@ -129,12 +129,12 @@ public class Q00382_KailsMagicCoin extends Quest
 		{
 			if (npc.getId() == FALLEN_ORC_CAPTAIN)
 			{
-				giveItemRandomly(killer, KAILS_SILVER_BASILISK + getRandom(3), 1, 0, ORC_CAPTAIN_DROP_CHANCE, true);
+				giveItemWithChance(killer, KAILS_SILVER_BASILISK + getRandom(3), 1, 0, ORC_CAPTAIN_DROP_CHANCE, true);
 			}
 			else
 			{
 				final ItemChanceHolder ih = MONSTER_DROPS.get(npc.getId());
-				giveItemRandomly(killer, ih.getId(), 1, 0, ih.getChance(), true);
+				giveItemWithChance(killer, ih.getId(), 1, 0, ih.getChance(), true);
 			}
 		}
 	}
